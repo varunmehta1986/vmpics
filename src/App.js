@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/gallery" component={Gallery} />
         </Switch>
+        <Footer></Footer>
       </div>
     </Router>
   );
