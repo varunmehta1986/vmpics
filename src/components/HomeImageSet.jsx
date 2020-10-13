@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import HomeImage from "./HomeImage";
-// import HomeVerticalImage from "./HomeVerticalImage";
 import Gallery from "react-photo-gallery";
 
 const photos = [
@@ -55,7 +53,7 @@ const photos = [
     height: 2,
   },
   {
-    src: require("../images/pregnancy/6.JPG"),
+    src: require("../images/pregnancy/7.jpg"),
     width: 3,
     height: 2,
   },
@@ -85,7 +83,7 @@ const photos = [
     height: 3,
   },
   {
-    src: require("../images/baby/15.JPG"),
+    src: require("../images/baby/16.jpg"),
     width: 3,
     height: 2,
   },
