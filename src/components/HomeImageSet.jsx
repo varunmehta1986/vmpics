@@ -1,89 +1,106 @@
 import React, { Component } from "react";
-import HomeImage from "./HomeImage";
-import HomeVerticalImage from "./HomeVerticalImage";
+// import HomeImage from "./HomeImage";
+// import HomeVerticalImage from "./HomeVerticalImage";
+import Gallery from "react-photo-gallery";
+
+const photos = [
+  {
+    src: require("../images/baby/8.jpg"),
+    width: 2,
+    height: 3,
+  },
+  {
+    src: require("../images/baby/1.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/pregnancy/1.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/scenery/1.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/baby/9.jpg"),
+    width: 2,
+    height: 3,
+  },
+  {
+    src: require("../images/baby/2.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/scenery/2.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/pregnancy/3.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/baby/14.jpg"),
+    width: 2,
+    height: 3,
+  },
+  {
+    src: require("../images/baby/3.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/pregnancy/6.JPG"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/baby/12.jpg"),
+    width: 2,
+    height: 3,
+  },
+  {
+    src: require("../images/baby/4.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/baby/5.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/baby/6.jpg"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/baby/7.jpg"),
+    width: 2,
+    height: 3,
+  },
+  {
+    src: require("../images/baby/15.JPG"),
+    width: 3,
+    height: 2,
+  },
+  {
+    src: require("../images/scenery/4.jpg"),
+    width: 3,
+    height: 2,
+  },
+];
 
 class HomeImageSet extends Component {
   render() {
     return (
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col border bg-light px-0">
-            <HomeImage
-              imageUrl={require("../images/baby/5.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeImage
-              imageUrl={require("../images/pregnancy/1.jpg")}
-              imageAlt="Pregnancy Picture"
-            ></HomeImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeImage
-              imageUrl={require("../images/scenery/2.jpg")}
-              imageAlt="Scenic Picture"
-            ></HomeImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeImage
-              imageUrl={require("../images/baby/6.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeImage
-              imageUrl={require("../images/pregnancy/3.jpg")}
-              imageAlt="Pregnancy Picture"
-            ></HomeImage>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col border bg-light px-0">
-            <HomeVerticalImage
-              imageUrl={require("../images/baby/8.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeVerticalImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeVerticalImage
-              imageUrl={require("../images/pregnancy/4.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeVerticalImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeVerticalImage
-              imageUrl={require("../images/baby/9.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeVerticalImage>
-          </div>
-
-          <div className="col border bg-light px-0">
-            <HomeVerticalImage
-              imageUrl={require("../images/baby/13.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeVerticalImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeVerticalImage
-              imageUrl={require("../images/baby/12.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeVerticalImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeVerticalImage
-              imageUrl={require("../images/scenery/6.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeVerticalImage>
-          </div>
-          <div className="col border bg-light px-0">
-            <HomeVerticalImage
-              imageUrl={require("../images/pregnancy/5.jpg")}
-              imageAlt="Baby Picture"
-            ></HomeVerticalImage>
-          </div>
-        </div>
+      <div>
+        <Gallery photos={photos} />
       </div>
     );
   }

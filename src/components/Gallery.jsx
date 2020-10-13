@@ -5,7 +5,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 const images = [
   {
     original: require("../images/gallery/pics/1.jpg"),
-    thumbnail: require("../images/gallery/thumbnails/12.jpg"),
+    thumbnail: require("../images/gallery/thumbnails/1.jpg"),
   },
   {
     original: require("../images/gallery/pics/2.jpg"),
