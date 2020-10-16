@@ -25,12 +25,28 @@ code {
   margin: auto;
   padding: 1% 1%;
 }
-
 .Feed a {
   display: inline-block;
   margin: 1% 1%;
   width: 23%;
   line-height: 0;
+}
+@media (max-width: 799px) {
+  .Feed a {
+    display: inline-block;
+    margin: 1% 1%;
+    width: 40%;
+    line-height: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .Feed a {
+    display: inline-block;
+    margin: 1% 1%;
+    width: 90%;
+    line-height: 0;
+  }
 }
 
 .Feed a img {
