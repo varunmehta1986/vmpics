@@ -15,6 +15,13 @@ class About extends Component {
               time now. I have been clicking my family and friends for sometime
               and I think it's time to take it to the next level.
             </p>
+            <p>
+              You can follow me on my instagram page @varunmehtapictures. Scan or click the QR Code to follow me now.
+              <br /> 
+              <a  href="https://www.instagram.com/varunmehtapictures/" target="_blank" rel="noopener noreferrer">
+              <img src= {require("../images/nametag.png")} alt="Instagram name tag" width="250"></img>
+              </a>
+            </p>
           </div>
         </div>
       </div>
