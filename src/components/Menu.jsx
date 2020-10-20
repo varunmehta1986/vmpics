@@ -19,6 +19,10 @@ class Menu extends Component {
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          <Nav>
+            <Nav.Link href="https://www.facebook.com/varunmehtapictures" target="_blank"><img style={{width:"30px"}} src={require("../images/icon-fb.png") } alt="facebook"></img></Nav.Link>
+            <Nav.Link href="https://www.instagram.com/varunmehtapictures" target="_blank"><img style={{width:"30px"}} src={require("../images/icon-insta.png") } alt="instagram"></img></Nav.Link>
+          </Nav>
         </Navbar>
       </div>
     );
