@@ -12,14 +12,14 @@ class About extends Component {
             <p className="card-text">
               Hello and thanks for visiting VMPics. I am Varun Mehta, a software
               engineer by profession, photography has been my hobby for a long
-              time now. I have been clicking my family and friends for sometime
-              and I think it's time to take it to the next level.
+              time now. I have been clicking my family and friends for sometime.
+              It's about time to take it to the next level.
             </p>
             <p>
               You can follow me on my instagram page @varunmehtapictures. Scan or click the QR Code to follow me now.
-              <br /> 
-              <a  href="https://www.instagram.com/varunmehtapictures/" target="_blank" rel="noopener noreferrer">
-              <img src= {require("../images/nametag.png")} alt="Instagram name tag" width="250"></img>
+              <br />
+              <a href="https://www.instagram.com/varunmehtapictures/" target="_blank" rel="noopener noreferrer">
+                <img src={require("../images/nametag.png")} alt="Instagram name tag" width="250"></img>
               </a>
             </p>
           </div>
