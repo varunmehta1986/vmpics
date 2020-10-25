@@ -17,6 +17,7 @@ class Menu extends Component {
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/gallery">Gallery</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link href="/pricing">Pricing</Nav.Link>
             </Nav>
 
             <Navbar.Text>

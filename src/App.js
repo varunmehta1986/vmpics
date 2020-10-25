@@ -7,6 +7,7 @@ import About from "./components/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/gallery" component={Gallery} />
+          <Route path="/pricing" component = {Pricing} />
         </Switch>
         <Footer></Footer>
       </div>
