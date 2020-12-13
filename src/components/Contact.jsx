@@ -23,7 +23,7 @@ class Contact extends Component {
         </div>
         <div className="row text-left">
           <div className="col-sm-3 col-md-2"><b>Email:</b></div>
-          <div className="col-sm-3 col-md-2">mehta.varun.vm@gmail.com</div>
+          <div className="col-sm-3 col-md-2">vmpicsphotography@gmail.com</div>
         </div>
       </div>
     );

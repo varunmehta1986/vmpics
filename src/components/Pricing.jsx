@@ -18,7 +18,7 @@ class Pricing extends Component {
                             10x8 Hard copy prints : 1
                         </li>
                         <li>
-                            Price : $100
+                            Price : $80
                         </li>
                     </ul>
                 </p>
