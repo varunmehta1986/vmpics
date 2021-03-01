@@ -1,27 +1,43 @@
 import React, { Component } from 'react'
-
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button'
 class Pricing extends Component {
     render() {
         return (
             <div className="container  text-left">
                 <h3>Pricing</h3>
-                <p>
-                    Introductory offer :
-                    <ul>
-                        <li>
-                            Session duration: 30-60 minutes
-                        </li>
-                        <li>
-                            High resolution images soft copies : 10
-                        </li>
-                        <li>
-                            10x8 Hard copy prints : 1
-                        </li>
-                        <li>
-                            Price : $80
-                        </li>
-                    </ul>
-                </p>
+                <p>Now you can decorate your home with your
+                beautiful pictures with our affordable and pocket friendly photography sessions.
+                     Below are our packages that can be customized as per your needs.</p>
+                <div className="row">
+                    <Card style={{ width: '28rem', padding: '1rem' }}>
+                        <Card.Img variant="top" src={require("../images/Family/Laal.jpg")} />
+                        <Card.Body>
+                            <Card.Title>Family potraits</Card.Title>
+                            <Card.Text>
+                                Price : $75 and up <br />
+                            Session Duration : 30 minutes <br />
+                            Total edited images : 8 <br />
+                            RAW photos shared at extra cost
+                        </Card.Text>
+                            {/* <Button variant="primary">Book this session!</Button>
+                            <Card.Link href="#">Visit gallery</Card.Link> */}
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '28rem', padding: '1rem' }}>
+                        <Card.Img variant="top" src={require("../images/pregnancy/Malik.jpg")} />
+                        <Card.Body>
+                            <Card.Title>Maternity shoot</Card.Title>
+                            <Card.Text>
+                                Price : $125 <br />
+                            Session Duration : 1 Hour <br />
+                            Total edited images : 15 <br />
+                            RAW photos included in the price
+                        </Card.Text>
+                            {/* <Button variant="primary">Book this session!</Button> */}
+                        </Card.Body>
+                    </Card>
+                </div>
             </div>
         )
     }

@@ -17,11 +17,11 @@ const photos = [
     width: 3,
     height: 2,
   },
-  {
-    src: require("../images/scenery/1.jpg"),
-    width: 3,
-    height: 2,
-  },
+  // {
+  //   src: require("../images/scenery/1.jpg"),
+  //   width: 3,
+  //   height: 2,
+  // },
   {
     src: require("../images/baby/9.jpg"),
     width: 2,
@@ -32,21 +32,21 @@ const photos = [
     width: 3,
     height: 2,
   },
-  {
-    src: require("../images/scenery/2.jpg"),
-    width: 3,
-    height: 2,
-  },
+  // {
+  //   src: require("../images/scenery/2.jpg"),
+  //   width: 3,
+  //   height: 2,
+  // },
   {
     src: require("../images/pregnancy/3.jpg"),
     width: 3,
     height: 2,
   },
-  {
-    src: require("../images/baby/14.jpg"),
-    width: 2,
-    height: 3,
-  },
+  // {
+  //   src: require("../images/baby/14.jpg"),
+  //   width: 2,
+  //   height: 3,
+  // },
   {
     src: require("../images/baby/3.jpg"),
     width: 3,
@@ -77,21 +77,21 @@ const photos = [
     width: 3,
     height: 2,
   },
-  {
-    src: require("../images/baby/7.jpg"),
-    width: 2,
-    height: 3,
-  },
-  {
-    src: require("../images/baby/16.jpg"),
-    width: 3,
-    height: 2,
-  },
-  {
-    src: require("../images/scenery/4.jpg"),
-    width: 3,
-    height: 2,
-  },
+  // {
+  //   src: require("../images/baby/7.jpg"),
+  //   width: 2,
+  //   height: 3,
+  // },
+  // {
+  //   src: require("../images/baby/16.jpg"),
+  //   width: 3,
+  //   height: 2,
+  // },
+  // {
+  //   src: require("../images/scenery/4.jpg"),
+  //   width: 3,
+  //   height: 2,
+  // },
 ];
 
 class HomeImageSet extends Component {

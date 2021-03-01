@@ -7,7 +7,13 @@ class Home extends Component {
     return (
       <div>
         <Header></Header>
-        <HomeImageSet></HomeImageSet>
+        <div className="container">
+          <div className="row">
+            <div>
+              <HomeImageSet></HomeImageSet>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
