@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 class Pricing extends Component {
     render() {
         return (
@@ -20,8 +20,11 @@ class Pricing extends Component {
                             Total edited images : 8 <br />
                             RAW photos shared at extra cost
                         </Card.Text>
-                            {/* <Button variant="primary">Book this session!</Button>
-                            <Card.Link href="#">Visit gallery</Card.Link> */}
+                            <Button variant="primary"
+                                href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                            {/* <Card.Link href="">Visit gallery</Card.Link> */}
+                            {/* <div data-site-id="2d818090-dd18-493a-bd1e-f21e0b3c71f5" data-platform="Other" class="gift-up-target"></div> */}
+
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '28rem', padding: '1rem' }}>
@@ -34,7 +37,8 @@ class Pricing extends Component {
                             Total edited images : 15 <br />
                             RAW photos included in the price
                         </Card.Text>
-                            {/* <Button variant="primary">Book this session!</Button> */}
+                            <Button variant="primary"
+                                href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
                         </Card.Body>
                     </Card>
                 </div>
