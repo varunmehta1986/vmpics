@@ -32,7 +32,7 @@ class Pricing extends Component {
                         <Card.Body>
                             <Card.Title>Maternity shoot</Card.Title>
                             <Card.Text>
-                                Price : $125 <br />
+                                Price : $150 <br />
                             Session Duration : 1 Hour <br />
                             Total edited images : 15 <br />
                             RAW photos included in the price
