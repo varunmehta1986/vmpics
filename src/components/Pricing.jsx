@@ -15,7 +15,7 @@ class Pricing extends Component {
                         <Card.Body>
                             <Card.Title>Family potraits</Card.Title>
                             <Card.Text>
-                                Price : $75 and up <br />
+                                Price : $100 and up <br />
                             Session Duration : 30 minutes <br />
                             Total edited images : 8 <br />
                             RAW photos shared at extra cost
