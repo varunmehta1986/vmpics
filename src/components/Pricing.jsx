@@ -28,7 +28,7 @@ class Pricing extends Component {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '28rem', padding: '1rem' }}>
-                        <Card.Img variant="top" src={require("../images/pregnancy/Malik.jpg")} />
+                        <Card.Img variant="top" src={require("../images/pregnancy/Gayatri.jpg")} />
                         <Card.Body>
                             <Card.Title>Maternity shoot</Card.Title>
                             <Card.Text>

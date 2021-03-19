@@ -4,11 +4,11 @@ class Pregnancy extends Component {
     render() {
         return <div className="container">
             <div className="row">
-                <div>
+                {/* <div>
                     <img src={require("../../images/pregnancy/Malik.jpg")}
                         width="500px"
                         alt="Malik.jpg"></img>
-                </div>
+                </div> */}
                 <div>
                     <img src={require("../../images/pregnancy/Gayatri.jpg")}
                         width="500px"
