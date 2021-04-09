@@ -1,19 +1,13 @@
 import React, { Component } from "react";
 import HomeImageSet from "./HomeImageSet";
-import Header from "./Header";
+
+// import Header from "./Header";
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <Header></Header>
-        <div className="container">
-          <div className="row">
-            <div>
-              <HomeImageSet></HomeImageSet>
-            </div>
-          </div>
-        </div>
+        <HomeImageSet></HomeImageSet>
       </div>
     );
   }

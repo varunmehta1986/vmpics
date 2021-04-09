@@ -4,3 +4,17 @@
 .App-link {
   color: #61dafb;
 }
+.btn-flat {
+  color: black;
+  background-color: blanchedalmond;
+}
+.homeText {
+  font-size: large;
+}
+.homeImage {
+  height: 1300px;
+  background-image: url(images/Home.jpg);
+  background-size: cover;
+  background-position: 55% 77%;
+  background-repeat: no-repeat;
+}
