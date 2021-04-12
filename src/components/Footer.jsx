@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 class Footer extends Component {
   render() {
-    return <div className="footer">&#169; vmpics.com.au</div>;
+    return (
+      <div className="footer">&#169; vmpics.com.au</div>);
   }
 }
 

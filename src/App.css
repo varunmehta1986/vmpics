@@ -18,3 +18,38 @@
   background-position: 55% 77%;
   background-repeat: no-repeat;
 }
+.img-wrapper-zoom {
+  display: inline-block;
+  overflow: hidden;
+
+  border: 1px solid gray;
+}
+
+.img-wrapper-zoom img {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+
+  vertical-align: middle;
+}
+
+.img-wrapper-zoom img:hover {
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -moz-transform: scale(1.5); /* Firefox */
+  -ms-transform: scale(1.5); /* IE 9 */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+}
+.img-wrapper-zoom a {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: blue;
+  color: #fff;
+}
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+}

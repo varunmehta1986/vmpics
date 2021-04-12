@@ -4,8 +4,7 @@ class HomeImageSet extends Component {
   render() {
     return (
       <div className="homeImage">
-        <Menu></Menu>
-        <br></br>
+        <Menu variant="dark"></Menu>
         {/* <div className="float-left"
           style={{ fontSize: "55px", color: "White", fontFamily: 'Cormorant Garamond' }}>
           Family Photographer based in Sydney, Australia
