@@ -150,7 +150,16 @@ const photos = [
 ];
 
 class Family extends Component {
-
+    render() {
+        return (
+            <div>
+                <Menu></Menu>
+                <div>
+                    <Gallery photos={photos}></Gallery>
+                </div>
+            </div>
+        )
+    }
 }
 
 export default Family;
