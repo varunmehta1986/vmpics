@@ -116,8 +116,8 @@ const photos = [
     },
     {
         src: 'https://vmpics-images.s3-ap-southeast-2.amazonaws.com/Malik/Malik+(12).jpg',
-        width: 2,
-        height: 3
+        width: 3,
+        height: 2
     },
     {
         src: 'https://vmpics-images.s3-ap-southeast-2.amazonaws.com/shabi/Shabi+(1).jpg',
