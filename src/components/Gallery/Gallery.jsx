@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Menu from '../Menu';
 class Gallery extends Component {
   render() {
     return (

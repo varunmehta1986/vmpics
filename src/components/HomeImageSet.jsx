@@ -1,19 +1,8 @@
 import React, { Component } from "react";
-import Menu from './Menu';
 class HomeImageSet extends Component {
   render() {
     return (
-      <div className="homeImage">
-        <Menu variant="dark"></Menu>
-        {/* <div className="float-left"
-          style={{ fontSize: "55px", color: "White", fontFamily: 'Cormorant Garamond' }}>
-          Family Photographer based in Sydney, Australia
-        </div> */}
-        {/* <div className="float-right align-bottom">
-          <Button variant="flat" size="lg" style={{ background: "#f7c979" }}>View Portfolio</Button>
-        </div> */}
-
-      </div >
+      <div></div>
     );
   }
 }
