@@ -53,3 +53,8 @@
   background-color: transparent;
   border-color: #ccc;
 }
+.footer {
+  background-color: #ffe8cc;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
