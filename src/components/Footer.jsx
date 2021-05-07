@@ -3,36 +3,44 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <div className="footer">
+      <footer>
+        <div className="col-lg-12" >
+          &#169; 2021 VMPICS PHOTOGRAPHY
+        </div>
         <div className="col-lg-12">
-          &#169; 2021 VMPICS PHOTOGRAPHY - YOUR FAMILY PHOTOGRAPHER
+          YOUR FAMILY PHOTOGRAPHER
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
           <table>
-            <tr>
-              <th>
-                CONTACT US
+            <thead>
+              <tr>
+                <th colSpan="2">
+                  CONTACT US
               </th>
-            </tr>
-            <tr>
-              <td>
-                Email:
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Email:
               </td>
-              <td>
-                vmpicsphotography@gmail.com
+                <td>
+                  vmpicsphotography@gmail.com
               </td>
-            </tr>
-            <tr>
-              <td>
-                Phone:
+              </tr>
+              <tr>
+                <td>
+                  Phone:
               </td>
-              <td>
-                +61-460628079
+                <td>
+                  +61-460628079
               </td>
-            </tr>
+              </tr>
+            </tbody>
           </table>
         </div>
-      </div>);
+      </footer>
+    );
 
   }
 }

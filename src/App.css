@@ -6,11 +6,12 @@
 }
 .btn-flat {
   color: black;
-  background-color: blanchedalmond;
+  background-color: #f3ede5;
 }
 .homeText {
   font-size: large;
 }
+
 .homeImage {
   height: 1300px;
   background-image: url(images/Home.jpg);
@@ -54,7 +55,11 @@
   border-color: #ccc;
 }
 .footer {
-  background-color: #ffe8cc;
+  border-top-color: #6b6255;
+  border-top-width: 1px;
+  border-top-style: solid;
+  background-color: #f0e9df;
+  padding-top: 10px;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
