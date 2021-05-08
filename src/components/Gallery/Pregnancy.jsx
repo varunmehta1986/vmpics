@@ -15,17 +15,6 @@ class Pregnancy extends Component {
     componentDidMount() {
 
         const apiUrl = 'https://2llibaeus7.execute-api.ap-southeast-2.amazonaws.com/Prod'
-        // for (let i = 0; i < this.props.albums.length; i++) {
-        //     const requestOptions = {
-        //         method: 'POST',
-        //         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        //         body: JSON.stringify({ BucketName: this.props.s3BucketName, AlbumName: this.props.albums[i] })
-        //     };
-        //     fetch(apiUrl, requestOptions)
-        //     .then(res => res.json())
-        //     .then(data => this.setState({ photos: this.state.photos.concat(data) }));
-
-        // }
         const requestOptionsKhyati = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', Accept: 'application/json' },

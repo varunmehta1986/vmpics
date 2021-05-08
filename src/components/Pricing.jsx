@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Menu from './Menu'
+import Nav from 'react-bootstrap/Nav'
 class Pricing extends Component {
     render() {
         return (
@@ -18,12 +19,18 @@ class Pricing extends Component {
                             <Card.Body>
                                 <Card.Title>Family potraits</Card.Title>
                                 <Card.Text>
-                                    Price : $80 and up <br />
+                                    Price : $100 and up <br />
                             Session Duration : 30 minutes <br />
                             Total edited images : 8 <br />
-                            RAW photos shared at extra cost
+                            RAW photos shared at an extra cost
                         </Card.Text>
-                                <Button variant="primary"
+                                <Nav.Link className="btn btn-dark"
+                                    style={{
+                                        margin: "5px", display: "inline-block",
+                                        padding: "6px", width: "180px"
+                                    }}
+                                    href="/contact">Book a session</Nav.Link>
+                                <Button variant="secondary"
                                     href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
                                 {/* <Card.Link href="">Visit gallery</Card.Link> */}
                                 {/* <div data-site-id="2d818090-dd18-493a-bd1e-f21e0b3c71f5" data-platform="Other" class="gift-up-target"></div> */}
@@ -35,12 +42,19 @@ class Pricing extends Component {
                             <Card.Body>
                                 <Card.Title>Maternity shoot</Card.Title>
                                 <Card.Text>
-                                    Price : $125 <br />
-                            Session Duration : 1 Hour <br />
+                                    Price : $150 <br />
+                            Session Duration : 60 minutes <br />
                             Total edited images : 15 <br />
-                            RAW photos included in the price
+                            RAW photos shared at an extra cost
                         </Card.Text>
-                                <Button variant="primary"
+                                <Nav.Link className="btn btn-dark"
+                                    style={{
+                                        margin: "5px", display: "inline-block",
+                                        padding: "6px", width: "180px"
+                                    }}
+                                    href="/contact">Book a session</Nav.Link>
+                                 &nbsp;
+                                <Button variant="secondary"
                                     href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
                             </Card.Body>
                         </Card>

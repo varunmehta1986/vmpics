@@ -68,7 +68,7 @@ function Contact() {
 
               </Form.Control>
             </Form.Group>
-            <Button variant="primary" onClick={(e) => submitForm(e)}>
+            <Button variant="dark" onClick={(e) => submitForm(e)}>
               Submit
               </Button>
 
