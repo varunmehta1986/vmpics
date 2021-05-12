@@ -29,9 +29,9 @@ class About extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-5">
+            {/* <div className="col-md-5">
               <Reviews></Reviews>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

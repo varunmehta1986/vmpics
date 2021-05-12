@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Menu from "./Menu";
 import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button';
 
 function Contact() {
@@ -9,8 +10,20 @@ function Contact() {
   const [phone, setPhone] = useState('');
   const [description, setDescription] = useState('');
   const [showSuccess, setSuccess] = useState(false);
+  const [enableSaveButton, setEnableSaveButton] = useState(true);
+
+  const onModalClose = () => {
+    console.log("onModalClose")
+    setName('');
+    setEmailId('');
+    setPhone('');
+    setDescription('');
+    setEnableSaveButton(true);
+    setSuccess(false);
+  }
 
   function submitForm(e) {
+    setEnableSaveButton(false);
     e.preventDefault();
     const requestOptions = {
       method: 'POST',
@@ -33,10 +46,18 @@ function Contact() {
   return (
     <div>
       <Menu></Menu>
+      <Modal show={showSuccess} onHide={onModalClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Booking Request Received</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Your appointment request has been submitted. We will get back to you in a Click!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="dark" onClick={onModalClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
       <div className="container text-left">
-        {showSuccess ? <div className="alert alert-success" role="alert">
-          Thanks for contacting us. We have received your request and will get back to you shortly.
-            </div> : null}
         <div className="wrapper flex-grow-1">
           <h3>BOOK AN APPOINTMENT</h3>
         </div>
@@ -47,28 +68,28 @@ function Contact() {
               <Form.Control type="text"
                 placeholder="Your Name"
                 maxLength="100"
-                onChange={e => setName(e.target.value)}></Form.Control>
+                onChange={e => setName(e.target.value)} value={name}></Form.Control>
             </Form.Group>
             <Form.Group controlId="emailId">
               <Form.Control type="email"
                 placeholder="Your Email"
                 maxLength="200"
-                onChange={e => setEmailId(e.target.value)} />
+                onChange={e => setEmailId(e.target.value)} value={emailId} />
             </Form.Group>
             <Form.Group controlId="phone">
               <Form.Control type="phone"
                 placeholder="Your Contact Number"
                 maxLength="15"
-                onChange={e => setPhone(e.target.value)}></Form.Control>
+                onChange={e => setPhone(e.target.value)} value={phone}></Form.Control>
             </Form.Group>
             <Form.Group controlId="description">
               <Form.Control as="textarea" rows={6}
                 placeholder="How can I help you? Describe your photography requirement in a few words here and mention the tentative date you want to book the session for."
-                onChange={e => setDescription(e.target.value)}>
+                onChange={e => setDescription(e.target.value)} value={description}>
 
               </Form.Control>
             </Form.Group>
-            <Button variant="dark" onClick={(e) => submitForm(e)}>
+            <Button variant="dark" onClick={(e) => submitForm(e)} disabled={!enableSaveButton}>
               Submit
               </Button>
 
