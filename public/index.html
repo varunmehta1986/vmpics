@@ -32,21 +32,30 @@
   </head>
   <body class="d-flex flex-column min-vh-100">
     <div id="root"></div>
-    <div id="fb-root"></div>
-                <script async defer
-                    crossorigin="anonymous"
-                    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0"
-                    nonce="yHAT8fbM"></script>
-                    <script type="text/javascript">
-                      (function (g, i, f, t, u, p, s) {
-                          g[u] = g[u] || function() { (g[u].q = g[u].q || []).push(arguments) };
-                          p = i.createElement(f);
-                          p.async = 1;
-                          p.src = t;
-                          s = i.getElementsByTagName(f)[0];
-                          s.parentNode.insertBefore(p, s);
-                      })(window, document, "script", "https://cdn.giftup.app/dist/gift-up.js", "giftup");
-                      </script>
+   <!-- Messenger Chat Plugin Code -->
+   <div id="fb-root"></div>
+   <script>
+     window.fbAsyncInit = function() {
+       FB.init({
+         xfbml            : true,
+         version          : 'v10.0'
+       });
+     };
+
+     (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+   </script>
+
+   <!-- Your Chat Plugin code -->
+   <div class="fb-customerchat"
+     attribution="biz_inbox"
+     page_id="103941761504809">
+   </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
