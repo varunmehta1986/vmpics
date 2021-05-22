@@ -10,34 +10,64 @@ class Footer extends Component {
         <div className="col-lg-12">
           YOUR FAMILY PHOTOGRAPHER
         </div>
-        <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
-          <table>
-            <thead>
-              <tr>
-                <th colSpan="2">
-                  CONTACT US
+        <div className="row">
+          <div className="col-sm-6 col-md-3 col-lg-3" style={{ textAlign: "left" }}>
+            <table>
+              <thead>
+                <tr>
+                  <th colSpan="2">
+                    CONTACT US
               </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  Email:
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Email:
               </td>
-                <td>
-                  vmpicsphotography@gmail.com
+                  <td>
+                    vmpicsphotography@gmail.com
               </td>
-              </tr>
-              <tr>
-                <td>
-                  Phone:
+                </tr>
+                <tr>
+                  <td>
+                    Phone:
               </td>
-                <td>
-                  +61-460628079
+                  <td>
+                    +61-460628079
               </td>
-              </tr>
-            </tbody>
-          </table>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="col-sm-6 col-md-3 col-lg-3" style={{ textAlign: "left" }}>
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    Bookings
+              </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="/contact" style={{ color: "black" }}>Book an appointment</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="/pricing" style={{ color: "black" }}>Pricing</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="/pricing" style={{ color: "black" }}>E-Gift Gards</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </footer>
     );
