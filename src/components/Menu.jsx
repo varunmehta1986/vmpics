@@ -32,7 +32,7 @@ class Menu extends Component {
                 </svg>
               </a>
               &nbsp;
-              <a href="https://www.instagram.com/varunmehtapictures"
+              <a href="https://www.instagram.com/vmpicsphotography"
                 target="_blank"
                 rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25 " fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
