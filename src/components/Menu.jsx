@@ -14,7 +14,7 @@ class Menu extends Component {
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav>
-              <Nav.Link href="/about">About</Nav.Link>
+              {/* <Nav.Link href="/about">About</Nav.Link> */}
               <Nav.Link href="/Family">Family Photos</Nav.Link>
               <Nav.Link href="/maternity">Maternity Photos</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
