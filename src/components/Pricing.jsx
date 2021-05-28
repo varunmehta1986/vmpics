@@ -26,12 +26,12 @@ class Pricing extends Component {
                         </Card.Text>
                                 <Nav.Link className="btn btn-dark"
                                     style={{
-                                        margin: "5px", display: "inline-block",
+                                        margin: "1px", display: "inline-block",
                                         padding: "6px", width: "180px"
                                     }}
                                     href="/contact">Book a session</Nav.Link>
                                 <Button variant="secondary"
-                                    href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                                    href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!*</Button>
                                 {/* <Card.Link href="">Visit gallery</Card.Link> */}
                                 {/* <div data-site-id="2d818090-dd18-493a-bd1e-f21e0b3c71f5" data-platform="Other" class="gift-up-target"></div> */}
 
@@ -49,17 +49,38 @@ class Pricing extends Component {
                         </Card.Text>
                                 <Nav.Link className="btn btn-dark"
                                     style={{
-                                        margin: "5px", display: "inline-block",
+                                        margin: "1px", display: "inline-block",
                                         padding: "6px", width: "180px"
                                     }}
                                     href="/contact">Book a session</Nav.Link>
-                                 &nbsp;
+
                                 <Button variant="secondary"
-                                    href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                                    href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!*</Button>
                             </Card.Body>
                         </Card>
                     </div>
+                    <br />
+                    <div style={{ textAlign: 'left' }}>
+                        <b>*Terms & Conditions</b>
+                        <p>
+                            <ul>
+                                <li>
+                                    A retainer(non-refundable deposit) is required to book a session.
+                                </li>
+                                <li>
+                                    E-Gift cards do not have any expiry date.
+                            </li>
+                                <li>
+                                    E-Gifts card purchases are non-transferable and non-refundable.
+                            </li>
+                                <li>
+                                    Session booked using E-Gift Cards cannot be rescheduled.
+                            </li>
+                            </ul>
+                        </p>
+                    </div>
                 </div>
+
             </div>
         )
     }
