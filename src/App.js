@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
 import Family from "./components/Gallery/Family";
 import Pregnancy from "./components/Gallery/Pregnancy";
+import Events from "./components/Gallery/Events";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/family" component={Family} />\
+          <Route path="/family" component={Family} />
           <Route path="/maternity" component={Pregnancy} />
+          <Route path="/event" component={Events} />
           <Route path="/pricing" component = {Pricing} />
         </Switch>
         <Footer></Footer>

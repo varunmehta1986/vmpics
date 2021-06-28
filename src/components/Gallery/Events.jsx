@@ -8,7 +8,7 @@ export class Events extends Component {
             <div>
                 <Menu></Menu>
                 <div>
-                    <S3Gallery albumName="maternity"></S3Gallery>
+                    <S3Gallery albumName="event"></S3Gallery>
                 </div>
             </div>
         )
