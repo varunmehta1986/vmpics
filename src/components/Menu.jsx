@@ -17,7 +17,7 @@ class Menu extends Component {
               {/* <Nav.Link href="/about">About</Nav.Link> */}
               <Nav.Link href="/Family">Family Photos</Nav.Link>
               <Nav.Link href="/maternity">Maternity Photos</Nav.Link>
-              <Nav.Link href="/events">Event Photos</Nav.Link>
+              <Nav.Link href="/event">Event Photos</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/pricing">Pricing</Nav.Link>
 
