@@ -75,7 +75,10 @@ class Pricing extends Component {
                             </li>
                                 <li>
                                     Session booked using E-Gift Cards cannot be rescheduled.
-                            </li>
+                                </li>
+                                <li>
+                                    E-Gift card amount cannot be used to book multiple sessions.
+                                </li>
                             </ul>
                         </p>
                     </div>

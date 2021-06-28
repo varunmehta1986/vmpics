@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
-import '../../HelperMethods';
 import Menu from '../Menu';
 import S3Gallery from './S3Gallery';
 
-
-class Pregnancy extends Component {
+export class Events extends Component {
     render() {
         return (
             <div>
@@ -17,4 +15,4 @@ class Pregnancy extends Component {
     }
 }
 
-export default Pregnancy;
+export default Events
