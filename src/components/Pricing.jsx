@@ -81,7 +81,7 @@ class Pricing extends Component {
                         <div className="card mb-3" style={{maxWidth: '700px'}}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <img src={require("../images/event.jpg")}class="card-img" alt="..." />
+                                    <img src={require("../images/gender.jpg")}class="card-img" alt="..." />
                                 </div>
                                 <div className="col-md-8">
                                 <Card.Body>
