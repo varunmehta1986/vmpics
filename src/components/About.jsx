@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Reviews from "./Reviews";
 import Menu from './Menu';
 
 class About extends Component {
