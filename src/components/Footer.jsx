@@ -11,7 +11,7 @@ class Footer extends Component {
           YOUR FAMILY PHOTOGRAPHER
         </div>
         <div className="row">
-          <div className="col-sm-6 col-md-3 col-lg-3" style={{ textAlign: "left" }}>
+          <div className="col-sm-12 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
             <table>
               <thead>
                 <tr>
@@ -40,7 +40,7 @@ class Footer extends Component {
               </tbody>
             </table>
           </div>
-          <div className="col-sm-6 col-md-3 col-lg-3" style={{ textAlign: "left" }}>
+          <div className="col-sm-12 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
             <table>
               <thead>
                 <tr>
@@ -68,7 +68,7 @@ class Footer extends Component {
               </tbody>
             </table>
           </div>
-          <div className="col-sm-6 col-md-3 col-lg-3" style={{ textAlign: "left" }}>
+          <div className="col-sm-12 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
             <table>
               <thead>
                 <tr>

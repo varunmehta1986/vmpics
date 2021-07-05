@@ -9,7 +9,7 @@ class Pricing extends Component {
             <div>
                 <Menu></Menu>
                 <div className="container text-left">
-                    <h3>Pricing</h3>
+                    <h3>PRICING</h3>
                     <p>Now you can decorate your home with your
                     beautiful pictures with our affordable and pocket friendly photography sessions.
                      Below are our packages that can be customized as per your needs.</p>
