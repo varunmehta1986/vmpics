@@ -45,8 +45,36 @@ class Footer extends Component {
               <thead>
                 <tr>
                   <th>
+                    Galleries
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="/family" style={{ color: "black" }}>Family</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="/maternity" style={{ color: "black" }}>Maternity</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="/event" style={{ color: "black" }}>Events</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="col-sm-6 col-md-3 col-lg-3" style={{ textAlign: "left" }}>
+            <table>
+              <thead>
+                <tr>
+                  <th>
                     Bookings
-              </th>
+                  </th>
                 </tr>
               </thead>
               <tbody>

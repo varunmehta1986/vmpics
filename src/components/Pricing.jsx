@@ -28,6 +28,7 @@ class Pricing extends Component {
                                         <li>Session Duration : 60+ minutes </li>
                                         <li>Total edited images : 20 </li>
                                         <li>Upto 4 members included in the price</li>
+                                        <li>5-7 days of turn-around time</li>
                                         <li>Extra photos for $10 each</li>
                                     </ul>
                                     <br />
@@ -60,6 +61,7 @@ class Pricing extends Component {
                                         <li>Price : $150 and up </li>
                                         <li>Session Duration : 60+ minutes </li>
                                         <li>Total edited images : 20 </li>
+                                        <li>5-7 days of turn-around time</li>
                                         <li>Extra photos for $10 each</li>
                                     </ul>
                                     <br />
@@ -90,6 +92,7 @@ class Pricing extends Component {
                                     <ul>
                                         <li>Price : Varies by duration </li>
                                         <li>Total edited images : Unlimited</li>
+                                        <li>8-10 days of turn-around time</li>
                                     </ul>
                                     <br />
                         </Card.Text>
