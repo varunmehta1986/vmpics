@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import '../../HelperMethods';
 import Menu from '../Menu';
 import S3Gallery from './S3Gallery';
 

@@ -9,7 +9,7 @@ class Menu extends Component {
       <div>
         <Navbar collapseOnSelect expand="md" variant={this.props.variant}>
           <Navbar.Brand href="/">
-            <div style={{ fontFamily: "Verdana" }}>VMPics Photography</div>
+            <div>VMPics Photography</div>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>

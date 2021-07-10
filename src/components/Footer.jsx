@@ -4,10 +4,10 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <div className="col-lg-12" >
+        <div className="col-lg-12" style={{textAlign:"center"}}>
           &#169; 2021 VMPICS PHOTOGRAPHY
         </div>
-        <div className="col-lg-12">
+        <div className="col-lg-12" style={{textAlign:"center"}}> 
           YOUR FAMILY PHOTOGRAPHER
         </div>
         <div className="row">

@@ -1,38 +1,100 @@
 import React, { Component } from 'react'
+import { Card, CardGroup } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel'
 
 class Reviews extends Component {
     render() {
         return (
-            <div className="container">
-                <Carousel>
-                    <Carousel.Item>
-                        <div class="fb-post" data-href="https://www.facebook.com/akash.d.gupta.3/posts/10218491135884941" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/akash.d.gupta.3/posts/10218491135884941" class="fb-xfbml-parse-ignore"><p>Varun has recently done photography for our house warming ceremony.
-We are really impressed with the his photographic...</p>Posted by <a href="https://www.facebook.com/akash.d.gupta.3">Akash Deep Gupta</a> on&nbsp;<a href="https://www.facebook.com/akash.d.gupta.3/posts/10218491135884941">Saturday, February 27, 2021</a></blockquote></div>
+            <div className="row" style={{margin:"20px"}}>
+                <span style={{fontFamily:"optima", fontSize:"35px"}}>TESTIMONIALS</span>
+                <br /><br />
+                <Carousel >
+                    <Carousel.Item interval = {8000}>
+                    <CardGroup>
+                        <Card>
+                            <Card.Img src={require("../images/kalgi.jpg")}/>
+                            <Card.Body>
+                            <Card.Title>Kalgi Kansara</Card.Title>
+                            <Card.Text>
+                            Varun recently captured my baby shower event and the pics turned out to be amazing. Thanks Varun for capturing our precious moments in a beautiful way. 
+                            He was on time and was constantly clicking pictures, very professional.  Would definitely recommend him to my friends and family
+                            </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                            <small className="text-muted">30th June 2021</small>
+                            </Card.Footer>
+                        </Card>
+                        <Card>
+                            <Card.Img src={require("../images/zoeya.jpg")}/>
+                            <Card.Body>
+                            <Card.Title>Basheer Unnisa</Card.Title>
+                            <Card.Text>
+                            Varun did a fantastic job!! Loved all the pics.... even though the lighting wasn’t great, the pics were awesome!! 
+                            Thank you for your time and work and giving us such beautiful memories!!
+                            </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                            <small className="text-muted">24th June 2021</small>
+                            </Card.Footer>
+                        </Card>
+                        <Card>
+                            <Card.Img src={require("../images/jodi.jpg")} />
+                            <Card.Body>
+                            <Card.Title>Jodi Ferris</Card.Title>
+                            <Card.Text>
+                            Varun recently covered our gender reveal party. He was very polite kind and captured some simply stunning photos of our big day I would absolutely recommend him to our family and friend I will use him for our maternity shoot and new born again thanks u varun for giving us some simply stunning shots ..
+                            </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                            <small className="text-muted">18th May 2021</small>
+                            </Card.Footer>
+                        </Card>
+                        </CardGroup>
                     </Carousel.Item>
-                    <Carousel.Item>
-                        {/*eslint-disable-next-line */}
-                        <div class="fb-post" data-href="https://www.facebook.com/tarun.lavi/posts/4173198902710054" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/tarun.lavi/posts/4173198902710054" class="fb-xfbml-parse-ignore"><p>Varun is really accommodating and knows what he is doing. Pictures shot by him were great . Loved his work 👍🏻</p>Posted by <a href="#" role="button">Tarun Kumar</a> on&nbsp;<a href="https://www.facebook.com/tarun.lavi/posts/4173198902710054">Wednesday, February 10, 2021</a></blockquote></div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div class="fb-post" data-href="https://www.facebook.com/navi.khurana.10/posts/3411975225591393" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/navi.khurana.10/posts/3411975225591393" class="fb-xfbml-parse-ignore"><p>Amazing photography. VARUN is very professional and friendly photographer. Thank you so much , we really appreciate your work .</p>Posted by <a href="#" role="button">Navdeep Khurana</a> on&nbsp;<a href="https://www.facebook.com/navi.khurana.10/posts/3411975225591393">Wednesday, January 13, 2021</a></blockquote></div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        {/*eslint-disable-next-line */}
-                        <div class="fb-post" data-href="https://www.facebook.com/gayatri.ahuja.16/posts/3888669544500372" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/gayatri.ahuja.16/posts/3888669544500372" class="fb-xfbml-parse-ignore"><p>We had a fantastic experience doing a pregnancy photoshoot with Varun.. He is so professional, creative and most...</p>Posted by <a href="#" role="button">Gayatri Raichandani</a> on&nbsp;<a href="https://www.facebook.com/gayatri.ahuja.16/posts/3888669544500372">Friday, November 20, 2020</a></blockquote></div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        {/*eslint-disable-next-line */}
-                        <div class="fb-post" data-hr ef="https://www.facebook.com/shuchi.arora.33/posts/3573907295995655" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/shuchi.arora.33/posts/3573907295995655" class="fb-xfbml-parse-ignore"><p>It’s not just once but several times we have got beautiful memories created by Vmpics’ lens. Highly recommend &#064;vmpics...</p>Posted by <a href="#" role="button">Shuchi Arora</a> on&nbsp;<a href="https://www.facebook.com/shuchi.arora.33/posts/3573907295995655">Saturday, December 26, 2020</a></blockquote></div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        {/*eslint-disable-next-line */}
-                        <div class="fb-post" data-href="https://www.facebook.com/monica.madineni/posts/4350928151590532" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/monica.madineni/posts/4350928151590532" class="fb-xfbml-parse-ignore"><p>Amazing work!! Loved the pictures 😍</p>Posted by <a href="https://www.facebook.com/monica.madineni">Monica Chowdary</a> on&nbsp;<a href="https://www.facebook.com/monica.madineni/posts/4350928151590532">Sunday, January 31, 2021</a></blockquote></div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        {/*eslint-disable-next-line */}
-                        <div class="fb-post" data-href="https://www.facebook.com/pratik.0013/posts/10218812403165925" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/pratik.0013/posts/10218812403165925" class="fb-xfbml-parse-ignore"><p>Nice clicks by Varun for our family shoot. He was flexible and patient with various poses and locations.</p>Posted by <a href="#" role="button">Pratik Patel</a> on&nbsp;<a href="https://www.facebook.com/pratik.0013/posts/10218812403165925">Saturday, February 13, 2021</a></blockquote></div>
-                    </Carousel.Item>
+                    {/* <Carousel.Item interval = {10000}>
+                    <CardGroup>
+                        <Card>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                            <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                        <Card>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                            <Card.Text>
+                                This card has supporting text below as a natural lead-in to additional
+                                content.{' '}
+                            </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                        <Card>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                            <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to
+                                show that equal height action.
+                            </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                        </CardGroup>
+                    </Carousel.Item> */}
                 </Carousel>
             </div>
         );
