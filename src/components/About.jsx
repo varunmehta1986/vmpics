@@ -5,7 +5,7 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div style={{ textAlign: "justify", margin:"35px" }} className="row">
+      <div style={{ textAlign: "justify", margin:"10px" }} className="row">
           <div className="col-lg-7 col-sm-12 col-md-12"> 
               <span style={{fontSize : "24px"}}>Hello, I am Varun. </span>
               <br />

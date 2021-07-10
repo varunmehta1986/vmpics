@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel'
 class Reviews extends Component {
     render() {
         return (
-            <div className="row" style={{margin:"20px"}}>
+            <div className="row" style={{margin:"20px", textAlign:"justify"}}>
                 <span style={{fontFamily:"optima", fontSize:"35px"}}>TESTIMONIALS</span>
                 <br /><br />
                 <Carousel >
@@ -16,8 +16,8 @@ class Reviews extends Component {
                             <Card.Body>
                             <Card.Title>Kalgi Kansara</Card.Title>
                             <Card.Text>
-                            Varun recently captured my baby shower event and the pics turned out to be amazing. Thanks Varun for capturing our precious moments in a beautiful way. 
-                            He was on time and was constantly clicking pictures, very professional.  Would definitely recommend him to my friends and family
+                            <i>Varun recently captured my baby shower event and the pics turned out to be amazing. Thanks Varun for capturing our precious moments in a beautiful way. 
+                            He was on time and was constantly clicking pictures, very professional.  Would definitely recommend him to my friends and family </i>
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -29,8 +29,8 @@ class Reviews extends Component {
                             <Card.Body>
                             <Card.Title>Basheer Unnisa</Card.Title>
                             <Card.Text>
-                            Varun did a fantastic job!! Loved all the pics.... even though the lighting wasn’t great, the pics were awesome!! 
-                            Thank you for your time and work and giving us such beautiful memories!!
+                            <i>Varun did a fantastic job!! Loved all the pics.... even though the lighting wasn’t great, the pics were awesome!! 
+                            Thank you for your time and work and giving us such beautiful memories!!</i>
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -42,7 +42,7 @@ class Reviews extends Component {
                             <Card.Body>
                             <Card.Title>Jodi Ferris</Card.Title>
                             <Card.Text>
-                            Varun recently covered our gender reveal party. He was very polite kind and captured some simply stunning photos of our big day I would absolutely recommend him to our family and friend I will use him for our maternity shoot and new born again thanks u varun for giving us some simply stunning shots ..
+                            <i>Varun recently covered our gender reveal party. He was very polite kind and captured some simply stunning photos of our big day I would absolutely recommend him to our family and friend I will use him for our maternity shoot and new born again thanks u varun for giving us some simply stunning shots</i>
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>

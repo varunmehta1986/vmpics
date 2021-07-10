@@ -6,7 +6,7 @@ class Menu extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div style={{textAlign:"center"}}>
         <Navbar collapseOnSelect expand="md" variant={this.props.variant}>
           <Navbar.Brand href="/">
             <div>VMPics Photography</div>
@@ -14,7 +14,6 @@ class Menu extends Component {
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav>
-              {/* <Nav.Link href="/about">About</Nav.Link> */}
               <Nav.Link href="/Family">Family Photos</Nav.Link>
               <Nav.Link href="/maternity">Maternity Photos</Nav.Link>
               <Nav.Link href="/event">Event Photos</Nav.Link>
