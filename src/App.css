@@ -31,10 +31,10 @@ html {
 }
 
 .homeImage {
-  height: 1300px;
+  height: 880px;
   background-image: url(images/Home.jpg);
   background-size: cover;
-  background-position: 35% 45%;
+  background-position: 65% 30%;
   background-repeat: no-repeat;
 }
 .img-wrapper-zoom {

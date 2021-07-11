@@ -9,10 +9,10 @@ class Home extends Component {
       <div>
         <div className="homeImage">
           <Menu variant="dark"></Menu>
-          <div className="col-lg-4 text-left"
+          {/* <div className="col-lg-4 text-left .d-none .d-sm-block"
             style={{ fontSize: "55px", color: "#ffe8cc"}}>
             Family Photographer based in Sydney, Australia
-          </div>
+          </div> */}
         </div >
         <br />
         <About />
