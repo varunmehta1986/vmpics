@@ -51,50 +51,46 @@ class Reviews extends Component {
                         </Card>
                         </CardGroup>
                     </Carousel.Item>
-                    {/* <Carousel.Item interval = {10000}>
+                    <Carousel.Item interval = {10000}>
                     <CardGroup>
                         <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Img src={require("../images/balu.jpg")} />
                             <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Balu Narendra</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                            <i>Professional and value for money. Great service. Varun photo shoot gear is really high end. We really loved the photos. Reliable and punctual . Best Photography service in Sydney. Varun priced the service cost efficiently. We strongly recommend VMPICS Photography to my friends and family.</i>
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
+                            <small className="text-muted">30<sup>th</sup> June 2021</small>
                             </Card.Footer>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Img src={require("../images/emily.jpg")} />
                             <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Emily Pender</Card.Title>
                             <Card.Text>
-                                This card has supporting text below as a natural lead-in to additional
-                                content.{' '}
+                            <i>Got Mother’s Day pictures done and they turned out amazing</i>
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
+                            <small className="text-muted">17<sup>th</sup> May 2021</small>
                             </Card.Footer>
                         </Card>
                         <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Img src={require("../images/dheepika.jpg")} />
                             <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Dheepika Panneerselvam</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to
-                                show that equal height action.
+                            <i>Varun recently captured our house warming event! We are so glad that we chose him. He is very professional and friendly. He made sure to capture all the important moments during the pooja and also took many portraits of us. We are happy with pictures and his quality of work. We will surely continue to work with him in the future! </i>🙂 
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
+                            <small className="text-muted">7<sup>th</sup> May 2021</small>
                             </Card.Footer>
                         </Card>
                         </CardGroup>
-                    </Carousel.Item> */}
+                    </Carousel.Item>
                 </Carousel>
             </div>
         );
