@@ -21,7 +21,7 @@ class Reviews extends Component {
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">30th June 2021</small>
+                            <small className="text-muted">30<sup>th</sup> June 2021</small>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -34,7 +34,7 @@ class Reviews extends Component {
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">24th June 2021</small>
+                            <small className="text-muted">24<sup>th</sup> June 2021</small>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -46,7 +46,7 @@ class Reviews extends Component {
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">18th May 2021</small>
+                            <small className="text-muted">18<sup>th</sup> May 2021</small>
                             </Card.Footer>
                         </Card>
                         </CardGroup>
