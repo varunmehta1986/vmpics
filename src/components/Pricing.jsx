@@ -32,7 +32,11 @@ class Pricing extends Component {
                                         <li>Extra photos for $10 each</li>
                                     </ul>
                                     <br />
+                                    <br />
                         </Card.Text>
+                               
+                            </Card.Body>    
+                            <Card.Footer>
                                 <Nav.Link className="btn btn-dark"
                                     style={{
                                         margin: "1px", display: "inline-block",
@@ -41,17 +45,14 @@ class Pricing extends Component {
                                     href="/contact">Book a session</Nav.Link>
                                 <Button variant="secondary"
                                     href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
-                                {/* <Card.Link href="">Visit gallery</Card.Link> */}
-                                {/* <div data-site-id="2d818090-dd18-493a-bd1e-f21e0b3c71f5" data-platform="Other" class="gift-up-target"></div> */}
-
-                            </Card.Body>
+                                </Card.Footer>
                                 </div>
                             </div>
                         </div>
                         <div className="card mb-3" style={{maxWidth: '700px'}}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <img src={require("../images/maternity.jpg")}class="card-img" alt="..." />
+                                <Card.Img  src={require("../images/maternity.jpg")}  alt="maternity photo" />
                                 </div>
                                 <div className="col-md-8">
                                 <Card.Body>
@@ -65,7 +66,11 @@ class Pricing extends Component {
                                         <li>Extra photos for $10 each</li>
                                     </ul>
                                     <br />
-                        </Card.Text>
+                                    <br />
+                                    <br />
+                            </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
                                 <Nav.Link className="btn btn-dark"
                                     style={{
                                         margin: "1px", display: "inline-block",
@@ -74,8 +79,7 @@ class Pricing extends Component {
                                     href="/contact">Book a session</Nav.Link>
                                 <Button variant="secondary"
                                     href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
-                            
-                            </Card.Body>
+                                </Card.Footer>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +87,7 @@ class Pricing extends Component {
                         <div className="card mb-3" style={{maxWidth: '700px'}}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <img src={require("../images/gender.jpg")}class="card-img" alt="..." />
+                                <Card.Img  src={require("../images/gender.jpg")} alt="..." />
                                 </div>
                                 <div className="col-md-8">
                                 <Card.Body>
@@ -95,7 +99,13 @@ class Pricing extends Component {
                                         <li>8-10 days of turn-around time</li>
                                     </ul>
                                     <br />
+                                    <br />
+                                    <br />
+                                    <br /><br />
                         </Card.Text>
+                        
+                            </Card.Body>
+                            <Card.Footer>
                                 <Nav.Link className="btn btn-dark"
                                     style={{
                                         margin: "1px", display: "inline-block",
@@ -104,8 +114,7 @@ class Pricing extends Component {
                                     href="/contact">Book a session</Nav.Link>
                                 <Button variant="secondary"
                                     href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
-                            
-                            </Card.Body>
+                        </Card.Footer> 
                                 </div>
                             </div>
                         </div>
