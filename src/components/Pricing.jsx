@@ -8,10 +8,9 @@ class Pricing extends Component {
         return (
             <div>
                 <Menu></Menu>
-                <div className="container text-left">
+                <div className="container">
                     <h3>PRICING</h3>
-                    <p>Now you can decorate your home with your
-                    beautiful pictures with our affordable and pocket friendly photography sessions.
+                    <p>Now you can decorate your home with your beautiful pictures with photography sessions.
                      Below are our packages that can be customized as per your needs.</p>
                     <div className="row">
                         <div className="card mb-3" style={{maxWidth: '700px'}}>

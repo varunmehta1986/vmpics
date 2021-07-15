@@ -9,7 +9,7 @@ import Family from "./components/Gallery/Family";
 import Pregnancy from "./components/Gallery/Pregnancy";
 import Events from "./components/Gallery/Events";
 import Faqs from "./components/Faqs";
-
+import PrintPackages from './components/PrintPackages';
 function App() {
   return (
     <Router>
@@ -23,6 +23,7 @@ function App() {
           <Route path="/event" component={Events} />
           <Route path="/pricing" component = {Pricing} />
           <Route path="/faq" component={Faqs} />
+          <Route path="/prints" component={PrintPackages} />
         </Switch>
         <Footer></Footer>
       </div>
