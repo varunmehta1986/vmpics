@@ -33,7 +33,7 @@ class PrintPackages extends Component{
                                         Price : $400
                                     </li>
                                     <li>
-                                        Package includes any 60+ maternity or family session 
+                                        Package includes any 60+ minutes maternity or family session 
                                     </li>
                                     <li>
                                         20 digital edited images
@@ -42,7 +42,7 @@ class PrintPackages extends Component{
                                         3 60cms x 40cms prints OR
                                     </li>
                                     <li>
-                                        2 90cms x 60cms  OR
+                                        2 90cms x 60cms prints OR
                                     </li>
                                     <li>
                                         2 75cms x 50cms prints OR
