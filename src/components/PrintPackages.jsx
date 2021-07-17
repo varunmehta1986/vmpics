@@ -65,6 +65,51 @@ class PrintPackages extends Component{
                                     href="/contact">Book a session</Nav.Link>
                             </Card.Footer>
                     </Card>
+                    <br />
+                    <Card style = {{maxWidth:"700px"}}>
+                        <Carousel>
+                            <Carousel.Item>
+                                <Card.Img variant="top" src={require("../images/4x60x40.jpg")}></Card.Img>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Card.Img variant="top" src={require("../images/3x75x50.jpg")}></Card.Img>
+                            </Carousel.Item>
+                                 
+                        </Carousel>
+                        <Card.Body>
+                            <Card.Title>Canvas Prints</Card.Title>
+                            <Card.Text>
+                                <ul>
+                                    <li>
+                                        Price : $450
+                                    </li>
+                                    <li>
+                                        Package includes any 60+ minutes maternity or family session 
+                                    </li>
+                                    <li>
+                                        20 digital edited images
+                                    </li>
+                                    <li>
+                                        4 60cms x 40cms prints OR
+                                    </li>
+                                    <li>
+                                        3 75cms x 50cms prints OR
+                                    </li>
+                                    <li>
+                                        2 90cms x 60cms prints and 1 60cmsx40cms
+                                    </li>
+                                </ul>
+
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                             <Nav.Link className="btn btn-dark" style={{
+                                        margin: "1px", display: "inline-block",
+                                        padding: "6px", width: "176px"
+                                    }}
+                                    href="/contact">Book a session</Nav.Link>
+                            </Card.Footer>
+                    </Card>
                 </div>
             </div>
         );
