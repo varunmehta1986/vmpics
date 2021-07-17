@@ -74,7 +74,10 @@ class PrintPackages extends Component{
                             <Carousel.Item>
                                 <Card.Img variant="top" src={require("../images/3x75x50.jpg")}></Card.Img>
                             </Carousel.Item>
-                                 
+                            <Carousel.Item>
+                                <Card.Img variant="top" src={require("../images/2x90x60 1x60x40.jpg")}></Card.Img>
+                            </Carousel.Item>
+      
                         </Carousel>
                         <Card.Body>
                             <Card.Title>Canvas Prints</Card.Title>
@@ -96,7 +99,7 @@ class PrintPackages extends Component{
                                         3 75cms x 50cms prints OR
                                     </li>
                                     <li>
-                                        2 90cms x 60cms prints and 1 60cmsx40cms
+                                        2 90cms x 60cms prints and 1 60cmsx40cms prints
                                     </li>
                                 </ul>
 
