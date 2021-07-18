@@ -122,9 +122,9 @@ class PrintPackages extends Component{
                             <Carousel.Item>
                                 <Card.Img variant="top" src={require("../images/3x90x60.jpg")}></Card.Img>
                             </Carousel.Item>
-                            {/* <Carousel.Item>
-                                <Card.Img variant="top" src={require("../images/2x90x60 1x60x40.jpg")}></Card.Img>
-                            </Carousel.Item> */}
+                            <Carousel.Item>
+                                <Card.Img variant="top" src={require("../images/2x120x80.jpg")}></Card.Img>
+                            </Carousel.Item>
       
                         </Carousel>
                         <Card.Body>
