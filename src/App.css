@@ -10,7 +10,7 @@ html {
   bottom: 0;
   width: 99%;
   /* Set the fixed height of the footer here */
-  min-height: 160px;
+  min-height: 200px;
   line-height: 25px; /* Vertically center the text there */
   background-color: #f5f5f5;
   font-size: small;
@@ -67,4 +67,38 @@ html {
 .btn-primary-outline {
   background-color: transparent;
   border-color: #ccc;
+}
+
+
+.pricingcard {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.pricingcard img {
+  width: 100%;
+  height: auto;
+}
+
+.pricingcard .btn {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  opacity:0.5;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pricingcard .btn:hover {
+  opacity: 0.78;
+  color: white;
 }

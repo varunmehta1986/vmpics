@@ -90,6 +90,11 @@ class Footer extends Component {
                 </tr>
                 <tr>
                   <td>
+                    <a href="/prints" style = {{color:"black"}}>Print Packages</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
                     <a href="/pricing" style={{ color: "black" }}>E-Gift Gards</a>
                   </td>
                 </tr>

@@ -1,4 +1,3 @@
-import { width } from 'dom-helpers';
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
@@ -14,8 +13,8 @@ class PrintPackages extends Component{
                     <Card style = {{maxWidth:"700px"}}>
                         <Carousel>
                             <Carousel.Item>
-                                <Card.Img variant="top" src={require("../images/canvas1.jpg")}></Card.Img>
-                            </Carousel.Item>
+                                    <Card.Img variant="top" src={require("../images/canvas1.jpg")}></Card.Img>
+                                </Carousel.Item>
                             <Carousel.Item>
                                 <Card.Img variant="top" src={require("../images/Canvas3.jpg")}></Card.Img>
                             </Carousel.Item>
