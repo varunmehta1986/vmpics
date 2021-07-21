@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button';
+import MetaTags from 'react-meta-tags';
 
 function Contact() {
   const [name, setName] = useState('');
@@ -46,6 +47,13 @@ function Contact() {
   return (
     <div>
       <Menu></Menu>
+      <MetaTags>
+        <title>
+          VMPics Photographer - Appointment Booking
+        </title>
+        <meta name="description" content="VMPics Photographer - Appointment Booking"></meta>
+      </MetaTags>
+
       <Modal show={showSuccess} onHide={onModalClose}>
         <Modal.Header closeButton>
           <Modal.Title>Booking Request Received</Modal.Title>
