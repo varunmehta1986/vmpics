@@ -11,123 +11,123 @@ class Pricing extends Component {
                 <div className="container">
                     <h3>PRICING</h3>
                     <p>Now you can decorate your home with your beautiful pictures with photography sessions.
-                     Below are our packages that can be customized as per your needs.</p>
+                        Below are our packages that can be customized as per your needs.</p>
                     <div className="row">
-                        <div className="card mb-3" style={{maxWidth: '700px'}}>
+                        <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <div className = "pricingcard">
-                                    <img src={require("../images/family.jpg")} className="card-img" alt="family" />
-                                        <Nav.Link className="btn" style={{width:"140px"}} href="/family"> View Gallery</Nav.Link>
-                                    </div> 
+                                    <div className="pricingcard">
+                                        <img src={require("../images/family.jpg")} className="card-img" alt="family" />
+                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/family"> View Gallery</Nav.Link>
+                                    </div>
                                 </div>
                                 <div className="col-md-8">
-                                <Card.Body>
-                                <Card.Title>Family Photography</Card.Title>
-                                <Card.Text> 
-                                    <ul>
-                                        <li>Price : $150 and up </li>
-                                        <li>Session Duration : 60+ minutes </li>
-                                        <li>Total edited images : 20 </li>
-                                        <li>Upto 4 members included in the price</li>
-                                        <li>5-7 days of turn-around time</li>
-                                        <li>Extra photos for $10 each</li>
-                                    </ul>
-                                    <br />
-                                    <br />
-                        </Card.Text>
-                               
-                            </Card.Body>    
-                            <Card.Footer>
-                                <Nav.Link className="btn btn-dark"
-                                    style={{
-                                        margin: "1px", display: "inline-block",
-                                        padding: "6px", width: "176px"
-                                    }}
-                                    href="/contact">Book a session</Nav.Link>
-                                <Button variant="secondary"
-                                    href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
-                                </Card.Footer>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card mb-3" style={{maxWidth: '700px'}}>
-                            <div className="row no-gutters">
-                                <div className="col-md-4">
-                                <div className = "pricingcard">
-                                    <Card.Img src={require("../images/maternity.jpg")}  alt="maternity photo" />
-                                    <Nav.Link className="btn" style={{width:"140px"}} href="/maternity">View Gallery</Nav.Link> 
-                                </div>
-                                </div>
-                                <div className="col-md-8">
-                                <Card.Body>
-                                <Card.Title>Maternity Shoot</Card.Title>
-                                <Card.Text>
-                                    <ul>
-                                        <li>Price : $150 and up </li>
-                                        <li>Session Duration : 60+ minutes </li>
-                                        <li>Total edited images : 20 </li>
-                                        <li>5-7 days of turn-around time</li>
-                                        <li>Extra photos for $10 each</li>
-                                    </ul>
-                                    <br />
-                                    <br />
-                                    <br />
-                            </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
+                                    <Card.Body>
+                                        <Card.Title>Family Photography</Card.Title>
+                                        <Card.Text>
+                                            <ul>
+                                                <li>Price : $200 and up </li>
+                                                <li>Session Duration : 60+ minutes </li>
+                                                <li>Total edited images : 20 </li>
+                                                <li>Upto 4 members included in the price</li>
+                                                <li>5-7 days of turn-around time</li>
+                                                <li>Extra photos for $10 each</li>
+                                            </ul>
+                                            <br />
+                                            <br />
+                                        </Card.Text>
 
-                                <Nav.Link className="btn btn-dark"
-                                    style={{
-                                        margin: "1px", display: "inline-block",
-                                        padding: "6px", width: "176px"
-                                    }}
-                                    href="/contact">Book a session</Nav.Link>
-                                <Button variant="secondary"
-                                    href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
-                                </Card.Footer>
+                                    </Card.Body>
+                                    <Card.Footer>
+                                        <Nav.Link className="btn btn-dark"
+                                            style={{
+                                                margin: "1px", display: "inline-block",
+                                                padding: "6px", width: "176px"
+                                            }}
+                                            href="/contact">Book a session</Nav.Link>
+                                        <Button variant="secondary"
+                                            href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                                    </Card.Footer>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card mb-3" style={{ maxWidth: '700px' }}>
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <div className="pricingcard">
+                                        <Card.Img src={require("../images/maternity.jpg")} alt="maternity photo" />
+                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/maternity">View Gallery</Nav.Link>
+                                    </div>
+                                </div>
+                                <div className="col-md-8">
+                                    <Card.Body>
+                                        <Card.Title>Maternity Shoot</Card.Title>
+                                        <Card.Text>
+                                            <ul>
+                                                <li>Price : $200 and up </li>
+                                                <li>Session Duration : 60+ minutes </li>
+                                                <li>Total edited images : 20 </li>
+                                                <li>5-7 days of turn-around time</li>
+                                                <li>Extra photos for $10 each</li>
+                                            </ul>
+                                            <br />
+                                            <br />
+                                            <br />
+                                        </Card.Text>
+                                    </Card.Body>
+                                    <Card.Footer>
+
+                                        <Nav.Link className="btn btn-dark"
+                                            style={{
+                                                margin: "1px", display: "inline-block",
+                                                padding: "6px", width: "176px"
+                                            }}
+                                            href="/contact">Book a session</Nav.Link>
+                                        <Button variant="secondary"
+                                            href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                                    </Card.Footer>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="card mb-3" style={{maxWidth: '700px'}}>
+                        <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                <div className = "pricingcard">
-                                    <Card.Img  src={require("../images/gender.jpg")} alt="..." />
-                                    <Nav.Link className="btn" style={{width:"140px"}} href="/event">View Gallery</Nav.Link>
-                                </div>
+                                    <div className="pricingcard">
+                                        <Card.Img src={require("../images/gender.jpg")} alt="..." />
+                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/event">View Gallery</Nav.Link>
+                                    </div>
                                 </div>
                                 <div className="col-md-8">
-                                <Card.Body>
-                                <Card.Title>Events & more</Card.Title>
-                                <Card.Text>
-                                    <ul>
-                                        <li>Price : Varies by duration </li>
-                                        <li>Total edited images : Unlimited</li>
-                                        <li>8-10 days of turn-around time</li>
-                                    </ul>
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <br /><br />
-                        </Card.Text>
-                        
-                            </Card.Body>
-                            <Card.Footer>
-                                <Nav.Link className="btn btn-dark"
-                                    style={{
-                                        margin: "1px", display: "inline-block",
-                                        padding: "6px", width: "176px"
-                                    }}
-                                    href="/contact">Book a session</Nav.Link>
-                                <Button variant="secondary"
-                                    href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
-                        </Card.Footer> 
+                                    <Card.Body>
+                                        <Card.Title>Events & more</Card.Title>
+                                        <Card.Text>
+                                            <ul>
+                                                <li>Price : Varies by duration </li>
+                                                <li>Total edited images : Unlimited</li>
+                                                <li>8-10 days of turn-around time</li>
+                                            </ul>
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br /><br />
+                                        </Card.Text>
+
+                                    </Card.Body>
+                                    <Card.Footer>
+                                        <Nav.Link className="btn btn-dark"
+                                            style={{
+                                                margin: "1px", display: "inline-block",
+                                                padding: "6px", width: "176px"
+                                            }}
+                                            href="/contact">Book a session</Nav.Link>
+                                        <Button variant="secondary"
+                                            href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                                    </Card.Footer>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <br />
                     <div style={{ textAlign: 'left' }}>
@@ -142,10 +142,10 @@ class Pricing extends Component {
                                 </li>
                                 <li>
                                     E-Gift cards do not have any expiry date.
-                            </li>
+                                </li>
                                 <li>
                                     E-Gifts card purchases are non-transferable and non-refundable.
-                            </li>
+                                </li>
                                 <li>
                                     Session booked using E-Gift Cards can be rescheduled only once
                                 </li>
