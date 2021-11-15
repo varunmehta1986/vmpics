@@ -10,5 +10,6 @@ export default (
         <Route path="/pricing" />
         <Route path="/faq" />
         <Route path="/prints" />
+        <Route path="/clientgallery" />
     </Route>
 );

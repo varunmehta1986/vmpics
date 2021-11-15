@@ -8,6 +8,7 @@ import Pregnancy from "./components/Gallery/Pregnancy";
 import Events from "./components/Gallery/Events";
 import Faqs from "./components/Faqs";
 import PrintPackages from './components/PrintPackages';
+import PicTimeGalleries from './components/Gallery/PicTimeGalleries';
 
 function Routes() {
   return (
@@ -21,6 +22,7 @@ function Routes() {
         <Route path="/pricing" component={Pricing} />
         <Route path="/faq" component={Faqs} />
         <Route path="/prints" component={PrintPackages} />
+        <Route path="/clientgallery" component={PicTimeGalleries} />
       </Switch>
     </Router>
   )
