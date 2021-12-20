@@ -26,9 +26,9 @@ class Pricing extends Component {
                                         <Card.Title>Family Photography</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $195 and up </li>
+                                                <li>Price : $200 and up </li>
                                                 <li>Session Duration : 60+ minutes </li>
-                                                <li>Total edited images : 20 </li>
+                                                <li>Included edited images : 15 </li>
                                                 <li>Upto 4 members included in the price</li>
                                                 <li>5-7 days of turn-around time</li>
                                                 <li>Extra photos for $10 each</li>
@@ -64,9 +64,9 @@ class Pricing extends Component {
                                         <Card.Title>Maternity Shoot</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $195 and up </li>
+                                                <li>Price : $200 and up </li>
                                                 <li>Session Duration : 60+ minutes </li>
-                                                <li>Total edited images : 20 </li>
+                                                <li>Included edited images : 15 </li>
                                                 <li>5-7 days of turn-around time</li>
                                                 <li>Extra photos for $10 each</li>
                                             </ul>
