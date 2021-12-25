@@ -14,15 +14,10 @@ class Menu extends Component {
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav>
-              <Nav.Link href="/Family">Family Photos</Nav.Link>
-              <Nav.Link href="/maternity">Maternity Photos</Nav.Link>
-              <Nav.Link href="/event">Event Photos</Nav.Link>
-              <Nav.Link href="/clientgallery">Client Galleries</Nav.Link>
+              <Nav.Link href="/clientgallery">My Work</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
-              <Nav.Link href="/pricing">Pricing</Nav.Link>
-              <Nav.Link href="/prints">Print Packages</Nav.Link>
+              <Nav.Link href="/investment">Your Investment</Nav.Link>
               <Nav.Link href="/faq">FAQs</Nav.Link>
-
             </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">

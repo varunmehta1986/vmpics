@@ -9,7 +9,7 @@ class Pricing extends Component {
             <div>
                 <Menu></Menu>
                 <div className="container">
-                    <h3>PRICING</h3>
+                    <h3>INVESTMENT OPTIONS</h3>
                     <p>Now you can decorate your home with your beautiful pictures with photography sessions.
                         Below are our packages that can be customized as per your needs.</p>
                     <div className="row">
@@ -18,20 +18,20 @@ class Pricing extends Component {
                                 <div className="col-md-4">
                                     <div className="pricingcard">
                                         <img src={require("../images/family.jpg")} className="card-img" alt="family" />
-                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/family"> View Gallery</Nav.Link>
+                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery"> View Gallery</Nav.Link>
                                     </div>
                                 </div>
                                 <div className="col-md-8">
                                     <Card.Body>
-                                        <Card.Title>Family Photography</Card.Title>
+                                        <Card.Title>SILVER</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $200 and up </li>
-                                                <li>Session Duration : 60+ minutes </li>
-                                                <li>Included edited images : 15 </li>
-                                                <li>Upto 4 members included in the price</li>
+                                                <li>Price : $200</li>
+                                                <li>Session Duration : 30 minutes</li>
+                                                <li>Personalized client gallery to view photos</li>
+                                                <li>Included digital edited images : 15 </li>
                                                 <li>5-7 days of turn-around time</li>
-                                                <li>Extra photos for $10 each</li>
+                                                <li>Extra photos for $25 each</li>
                                             </ul>
                                             <br />
                                             <br />
@@ -55,20 +55,59 @@ class Pricing extends Component {
                             <div className="row no-gutters">
                                 <div className="col-md-4">
                                     <div className="pricingcard">
-                                        <Card.Img src={require("../images/maternity.jpg")} alt="maternity photo" />
-                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/maternity">View Gallery</Nav.Link>
+                                        <Card.Img src={require("../images/family2.jpg")} alt="maternity photo" />
+                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                                     </div>
                                 </div>
                                 <div className="col-md-8">
                                     <Card.Body>
-                                        <Card.Title>Maternity Shoot</Card.Title>
+                                        <Card.Title>GOLD</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $200 and up </li>
-                                                <li>Session Duration : 60+ minutes </li>
-                                                <li>Included edited images : 15 </li>
+                                                <li>Price : $300</li>
+                                                <li>Session Duration : 60 minutes</li>
+                                                <li>Personalized client gallery to view photos</li>
+                                                <li>Included digital edited images : 25</li>
                                                 <li>5-7 days of turn-around time</li>
-                                                <li>Extra photos for $10 each</li>
+                                                <li>Extra photos for $25 each</li>
+                                            </ul>
+                                            <br />
+                                            <br />
+                                        </Card.Text>
+                                    </Card.Body>
+                                    <Card.Footer>
+
+                                        <Nav.Link className="btn btn-dark"
+                                            style={{
+                                                margin: "1px", display: "inline-block",
+                                                padding: "6px", width: "176px"
+                                            }}
+                                            href="/contact">Book a session</Nav.Link>
+                                        <Button variant="secondary"
+                                            href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                                    </Card.Footer>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card mb-3" style={{ maxWidth: '700px' }}>
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <div className="pricingcard">
+                                        <Card.Img src={require("../images/maternity.jpg")} alt="maternity photo" />
+                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
+                                    </div>
+                                </div>
+                                <div className="col-md-8">
+                                    <Card.Body>
+                                        <Card.Title>PLATINUM</Card.Title>
+                                        <Card.Text>
+                                            <ul>
+                                                <li>Price : $450</li>
+                                                <li>Session Duration : 60-75 minutes </li>
+                                                <li>Personalized client gallery to view photos</li>
+                                                <li>Included digital edited images : Complete gallery</li>
+                                                <li>8-12 days of turn-around time</li>
                                             </ul>
                                             <br />
                                             <br />
@@ -90,7 +129,7 @@ class Pricing extends Component {
                             </div>
                         </div>
 
-                        <div className="card mb-3" style={{ maxWidth: '700px' }}>
+                        {/* <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
                                     <div className="pricingcard">
@@ -126,7 +165,7 @@ class Pricing extends Component {
                                     </Card.Footer>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                     <br />
