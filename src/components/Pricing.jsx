@@ -26,12 +26,12 @@ class Pricing extends Component {
                                         <Card.Title>SILVER</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $200</li>
+                                                <li>Price : $150</li>
                                                 <li>Session Duration : 30 minutes</li>
                                                 <li>Personalized client gallery to view photos</li>
-                                                <li>Included digital edited images : 15 </li>
+                                                <li>Included digital edited images : 12 </li>
                                                 <li>5-7 days of turn-around time</li>
-                                                <li>Extra photos for $25 each</li>
+                                                <li>Extra photos for $20 each</li>
                                             </ul>
                                             <br />
                                             <br />
@@ -64,7 +64,7 @@ class Pricing extends Component {
                                         <Card.Title>GOLD</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $300</li>
+                                                <li>Price : $250</li>
                                                 <li>Session Duration : 60 minutes</li>
                                                 <li>Personalized client gallery to view photos</li>
                                                 <li>Included digital edited images : 25</li>
@@ -104,7 +104,7 @@ class Pricing extends Component {
                                         <Card.Title>PLATINUM</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $450</li>
+                                                <li>Price : $400</li>
                                                 <li>Session Duration : 60-75 minutes </li>
                                                 <li>Personalized client gallery to view photos</li>
                                                 <li>Included digital edited images : Complete gallery</li>
