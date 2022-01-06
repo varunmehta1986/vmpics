@@ -73,7 +73,6 @@ class Pricing extends Component {
                                                 <li>Recommended for Family and Maternity shoots</li>
                                             </ul>
                                             <br />
-                                            <br />
                                         </Card.Text>
                                     </Card.Body>
                                     <Card.Footer>
