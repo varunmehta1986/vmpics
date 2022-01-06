@@ -4,10 +4,10 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <div className="col-lg-12" style={{textAlign:"center"}}>
+        <div className="col-lg-12" style={{ textAlign: "center" }}>
           &#169; 2021 VMPICS PHOTOGRAPHY
         </div>
-        <div className="col-lg-12" style={{textAlign:"center"}}> 
+        <div className="col-lg-12" style={{ textAlign: "center" }}>
           YOUR FAMILY PHOTOGRAPHER
         </div>
         <div className="row">
@@ -17,25 +17,25 @@ class Footer extends Component {
                 <tr>
                   <th colSpan="2">
                     CONTACT US
-              </th>
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>
                     Email:
-              </td>
+                  </td>
                   <td>
                     vmpicsphotography@gmail.com
-              </td>
+                  </td>
                 </tr>
                 <tr>
                   <td>
                     Phone:
-              </td>
+                  </td>
                   <td>
                     +61-460628079
-              </td>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -52,17 +52,7 @@ class Footer extends Component {
               <tbody>
                 <tr>
                   <td>
-                    <a href="/family" style={{ color: "black" }}>Family</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="/maternity" style={{ color: "black" }}>Maternity</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="/event" style={{ color: "black" }}>Events</a>
+                    <a href="/clientgallery" style={{ color: "black" }}>Client Galleries</a>
                   </td>
                 </tr>
               </tbody>
@@ -85,17 +75,12 @@ class Footer extends Component {
                 </tr>
                 <tr>
                   <td>
-                    <a href="/pricing" style={{ color: "black" }}>Pricing</a>
+                    <a href="/investment" style={{ color: "black" }}>Pricing</a>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="/prints" style = {{color:"black"}}>Print Packages</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="/pricing" style={{ color: "black" }}>E-Gift Gards</a>
+                    <a href="/investment" style={{ color: "black" }}>E-Gift Gards</a>
                   </td>
                 </tr>
               </tbody>

@@ -9,8 +9,8 @@ class Pricing extends Component {
             <div>
                 <Menu></Menu>
                 <div className="container">
-                    <h3>INVESTMENT OPTIONS</h3>
-                    <p>Now you can decorate your home with your beautiful pictures with photography sessions.
+                    <h3>INVESTMENT</h3>
+                    <p>
                         Below are our packages that can be customized as per your needs.</p>
                     <div className="row">
                         <div className="card mb-3" style={{ maxWidth: '700px' }}>
@@ -70,6 +70,7 @@ class Pricing extends Component {
                                                 <li>Included digital edited images : 25</li>
                                                 <li>5-7 days of turn-around time</li>
                                                 <li>Extra photos for $25 each</li>
+                                                <li>Recommended for Family and Maternity shoots</li>
                                             </ul>
                                             <br />
                                             <br />
