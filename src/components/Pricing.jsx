@@ -69,7 +69,7 @@ class Pricing extends Component {
                                                 <li>Personalized client gallery to view photos</li>
                                                 <li>Included digital edited images : 25</li>
                                                 <li>5-7 days of turn-around time</li>
-                                                <li>Extra photos for $25 each</li>
+                                                <li>Extra photos for $20 each</li>
                                                 <li>Recommended for Family and Maternity shoots</li>
                                             </ul>
                                             <br />
