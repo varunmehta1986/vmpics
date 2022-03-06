@@ -1,9 +1,7 @@
-require("babel-register")({
-  presets: ["es2015", "react"]
-});
- 
-const router = require("./src/sitemap-routes").default;
-const Sitemap = require("react-router-sitemap").default;
+import "babel-register";
+
+import router from "./src/sitemap-routes";
+import Sitemap from 'react-router-sitemap';
 
 function generateSitemap() {
     return (

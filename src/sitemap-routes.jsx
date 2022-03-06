@@ -4,8 +4,7 @@ export default (
     <Route>
         <Route path="/" />
         <Route path="/contact" />
-        <Route path="/family" />
-        <Route path="/pricing" />
+        <Route path="/investment" />
         <Route path="/faq" />
         <Route path="/clientgallery" />
     </Route>
