@@ -3,10 +3,15 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Menu from './Menu'
 import Nav from 'react-bootstrap/Nav'
+import Helmet from 'react-helmet'
 class Pricing extends Component {
     render() {
         return (
             <div>
+                <Helmet>
+                    <title>VMPics Photography: Your investment for lifetime memories.</title>
+                    <meta name="description" content='Details of available packages for photoshoots with VMPics Photography'></meta>
+                </Helmet>
                 <Menu></Menu>
                 <div className="container">
                     <h3>INVESTMENT</h3>
