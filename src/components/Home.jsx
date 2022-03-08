@@ -14,9 +14,9 @@ class Home extends Component {
           <title>Welcome to VMPics Photography. </title>
           <meta name="description" content='Family photographer in Hills District of NSW. Australia'></meta>
         </Helmet>
-        <div style={{ textAlign: 'center' }} autoPlay interval="3000" transitionTime="3000">
+        <div style={{ textAlign: 'center' }} >
           <Menu></Menu>
-          <Carousel showArrows={true}>
+          <Carousel showArrows={true} autoPlay={true} infiniteLoop={true} interval={5000} transitionTime={2000}>
             <div>
               <img src={require("../images/Carousel/Carousel1.jpg")} alt='Carousel 1' />
 
