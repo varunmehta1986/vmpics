@@ -108,7 +108,7 @@ class Pricing extends Component {
                                         <Card.Title>PLATINUM</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $400</li>
+                                                <li>Price : $450</li>
                                                 <li>Session Duration : 60-75 minutes </li>
                                                 <li>Personalized client gallery to view photos</li>
                                                 <li>Included digital edited images : Complete gallery</li>
