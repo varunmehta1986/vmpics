@@ -69,7 +69,6 @@ html {
   border-color: #ccc;
 }
 
-
 .pricingcard {
   position: relative;
   width: 100%;
@@ -85,7 +84,7 @@ html {
   position: absolute;
   top: 85%;
   left: 50%;
-  opacity:0.5;
+  opacity: 0.5;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: black;
@@ -101,4 +100,17 @@ html {
 .pricingcard .btn:hover {
   opacity: 0.78;
   color: white;
+}
+
+.reviewText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  text-justify: distribute-all-lines;
+}
+
+.reviewImg {
+  width: 100%;
+  max-width: 600px;
+  min-width: 325px;
 }

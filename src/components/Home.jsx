@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import About from "./About";
 import Menu from './Menu';
-import Reviews from './Reviews';
 import Helmet from 'react-helmet'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 var Carousel = require('react-responsive-carousel').Carousel;
@@ -75,7 +74,6 @@ class Home extends Component {
         <br />
         <About />
         <br />
-        <Reviews />
       </div >
     );
   }

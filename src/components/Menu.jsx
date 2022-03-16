@@ -15,8 +15,9 @@ class Menu extends Component {
           <Navbar.Collapse>
             <Nav>
               <Nav.Link href="/clientgallery">My Work</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link href="/testimonials">Testimonials</Nav.Link>
               <Nav.Link href="/investment">Your Investment</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/faq">FAQs</Nav.Link>
             </Nav>
           </Navbar.Collapse>

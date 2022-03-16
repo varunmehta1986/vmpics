@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Pricing from "./components/Pricing";
 import Faqs from "./components/Faqs";
 import PicTimeGalleries from './components/Gallery/PicTimeGalleries';
+import Testimonials from './components/Testimonials';
 
 function Routes() {
   return (
@@ -15,6 +16,7 @@ function Routes() {
         <Route path="/investment" component={Pricing} />
         <Route path="/faq" component={Faqs} />
         <Route path="/clientgallery" component={PicTimeGalleries} />
+        <Route path="/testimonials" component={Testimonials} />
       </Switch>
     </Router>
   )
