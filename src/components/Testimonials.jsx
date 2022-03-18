@@ -15,7 +15,7 @@ class Testimonials extends Component {
                 <Menu></Menu>
                 <br />
                 <Container>
-                    <center><h2>ALL THE LOVE FROM OUR <br></br>AWESOME CLIENTS </ h2></center> <br />
+                    <center><h3>ALL THE LOVE FROM OUR <br></br>AWESOME CLIENTS </ h3></center> <br />
                     <br />
                     <div>
                         <Row>
