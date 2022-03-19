@@ -17,7 +17,7 @@ class Home extends Component {
         <br />
         <About />
         <br />
-        {/* <ReadyToInquire /> */}
+
       </div >
     );
   }
