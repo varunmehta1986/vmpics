@@ -3,6 +3,7 @@ import About from "./About";
 import Menu from './Menu';
 import Helmet from 'react-helmet'
 import HomeCarousel from "./HomeCarousel";
+import ReadyToInquire from "./ReadyToEnquire";
 
 class Home extends Component {
   render() {
@@ -17,7 +18,7 @@ class Home extends Component {
         <br />
         <About />
         <br />
-
+        <ReadyToInquire />
       </div >
     );
   }

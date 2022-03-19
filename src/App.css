@@ -127,6 +127,16 @@ html {
   min-width: 400px;
 }
 
+.aboutmeText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+.aboutmeImg {
+  max-width: 550px;
+  min-width: 350px;
+}
+
 .readyToEnquireDiv {
   background-color: #ebe9e5;
 }
