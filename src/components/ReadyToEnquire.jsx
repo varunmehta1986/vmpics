@@ -17,7 +17,7 @@ class ReadyToEnquire extends Component {
                         <div className="readyToEnquireFont">
                             <span style={{ fontSize: '50px' }}>READY TO ENQUIRE? </span>
                             <h5>WE'D LOVE TO HEAR FROM YOU</h5>
-                            <br />
+                            |<br />
                             <br />
                             <Nav.Link className="btn" href="/contact">GET IN TOUCH</Nav.Link>
                             <br />

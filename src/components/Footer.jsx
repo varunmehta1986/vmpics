@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div className="col-lg-12" style={{ textAlign: "center" }}>
-          &#169; 2021 VMPICS PHOTOGRAPHY
+          &#169; 2022 VMPICS PHOTOGRAPHY
         </div>
         <div className="col-lg-12" style={{ textAlign: "center" }}>
           YOUR FAMILY PHOTOGRAPHER
