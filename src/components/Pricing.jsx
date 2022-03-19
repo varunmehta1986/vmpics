@@ -134,43 +134,6 @@ class Pricing extends Component {
                             </div>
                         </div>
 
-                        {/* <div className="card mb-3" style={{ maxWidth: '700px' }}>
-                            <div className="row no-gutters">
-                                <div className="col-md-4">
-                                    <div className="pricingcard">
-                                        <Card.Img src={require("../images/gender.jpg")} alt="..." />
-                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/event">View Gallery</Nav.Link>
-                                    </div>
-                                </div>
-                                <div className="col-md-8">
-                                    <Card.Body>
-                                        <Card.Title>Events & more</Card.Title>
-                                        <Card.Text>
-                                            <ul>
-                                                <li>Price : Varies by duration </li>
-                                                <li>Total edited images : Unlimited</li>
-                                                <li>8-10 days of turn-around time</li>
-                                            </ul>
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <br /><br />
-                                        </Card.Text>
-
-                                    </Card.Body>
-                                    <Card.Footer>
-                                        <Nav.Link className="btn btn-dark"
-                                            style={{
-                                                margin: "1px", display: "inline-block",
-                                                padding: "6px", width: "176px"
-                                            }}
-                                            href="/contact">Book a session</Nav.Link>
-                                        <Button variant="secondary"
-                                            href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
-                                    </Card.Footer>
-                                </div>
-                            </div>
-                        </div> */}
 
                     </div>
                     <br />

@@ -7,9 +7,9 @@ export class PicTimeGalleries extends Component {
             <div style={{ height: "100%" }}>
                 <MetaTags>
                     <title>
-                        VMPics Photographer - Pic Time Galleries
+                        VMPics Photographer - Sneak Peak to Client Galleries
                     </title>
-                    <meta name="description" content="VMPics Photographer - Event Photo Gallery"></meta>
+                    <meta name="description" content="VMPics Photographer - View Client Galleries"></meta>
                 </MetaTags>
 
                 <Menu></Menu>

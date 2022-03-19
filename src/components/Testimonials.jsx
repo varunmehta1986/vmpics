@@ -3,6 +3,7 @@ import { Col, Row, Container } from "react-bootstrap";
 import Menu from '../components/Menu';
 import '../App.css';
 import Helmet from 'react-helmet';
+import ReadyToEnquire from './ReadyToEnquire';
 
 class Testimonials extends Component {
     render() {
@@ -37,7 +38,7 @@ class Testimonials extends Component {
                         <br />
                         <Row>
                             <Col sm-12 md-6 lg-6>
-                                <img src={require("../images/reviews/review2.jpg")} alt="Family shoot testimonial 1" className="reviewImg" />
+                                <img src={require("../images/reviews/review2.jpg")} alt="Family shoot testimonial 2" className="reviewImg" />
                             </Col>
                             <Col sm-12 md-6 lg-6 className="reviewTextLeftAlign" > Highy recommended.
                                 Time Management and Affordable!
@@ -56,10 +57,10 @@ class Testimonials extends Component {
                                 The photos turned out beautifully. You were also very patience with our kids,
                                 thank you and we highly recommend you. <br /><br />
 
-                                <div>-KELLIE TO OIZUMI</div></Col>
+                                <div> - KELLIE TO OIZUMI</div></Col>
 
                             <Col sm-12 md-6 lg-6>
-                                <img src={require("../images/reviews/review3.jpg")} alt="Family shoot testimonial 1" className="reviewImg" />
+                                <img src={require("../images/reviews/review3.jpg")} alt="Family shoot testimonial 3" className="reviewImg" />
                             </Col>
                         </Row>
                         <br />
@@ -76,13 +77,18 @@ class Testimonials extends Component {
                                 Also not to forget we got our gallery delivered within a week.
                                 We can't wait to book Varun for more upcoming events. <br /><br />
 
-                                <div>-KIRTI PARIJA</div></Col>
+                                <div> - KIRTI PARIJA</div></Col>
                         </Row>
                         <br />
                         <br />
                         <br />
                     </div>
                 </Container>
+                <ReadyToEnquire />
+
+                <br />
+                <br />
+                <br />
             </div>
         );
     }

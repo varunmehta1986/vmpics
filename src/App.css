@@ -120,3 +120,37 @@ html {
   max-width: 650px;
   min-width: 350px;
 }
+
+.readyToBookImg {
+  width: 100%;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+.readyToEnquireDiv {
+  background-color: #ebe9e5;
+}
+
+.readyToEnquireFont {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.readyToEnquireFont .btn {
+  display: inline;
+  opacity: 0.5;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.readyToEnquireFont .btn:hover {
+  opacity: 0.78;
+  color: white;
+}
