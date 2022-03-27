@@ -10,6 +10,8 @@ class About extends Component {
         <Container>
           <Row>
             <Col className='aboutmeText' md-6 lg-6 sm-12>
+              <h4>HI, I AM VARUN</h4> <br />
+
               A software
               engineer by my first profession, I had a keen interest in photography from a very long time. And I started taking it seriously and made it my second profession in 2020
               after I moved to Australia. Over the past years, I have learnt that it is important to know your equipment, light, composition, etc, but even more important is to make your
