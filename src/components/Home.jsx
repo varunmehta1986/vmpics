@@ -19,7 +19,12 @@ class Home extends Component {
         <About />
         <br />
         <ReadyToInquire />
-      </div >
+        <br />
+        <div class="tagembed-container" style={{ width: '100%', height: '300px', overflow: 'auto' }}>
+          <div class="tagembed-socialwall" data-wall-id="37711" view-url="https://widget.tagembed.com/37711?view">
+          </div>
+        </div>
+      </div>
     );
   }
 }
