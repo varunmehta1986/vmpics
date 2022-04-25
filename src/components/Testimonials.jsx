@@ -4,6 +4,7 @@ import Menu from '../components/Menu';
 import '../App.css';
 import Helmet from 'react-helmet';
 import ReadyToEnquire from './ReadyToEnquire';
+import InstagramFeed from './Gallery/InstagramFeed';
 
 class Testimonials extends Component {
     render() {
@@ -19,6 +20,41 @@ class Testimonials extends Component {
                     <center><h3>ALL THE LOVE FROM OUR <br></br>AWESOME CLIENTS </ h3></center> <br />
                     <br />
                     <div>
+                        <Row>
+                            <Col sm-12 md-6 lg-6 className="reviewTextRightAlign" >Varun was absolute delight to work with,
+                                he knew exactly what we wanted and captured our family moments with his lenses.
+                                He is a very talented photographer and I would highly recommend him.<br /><br />
+
+                                <div> - SHIWANEE GAUTAM</div></Col>
+
+                            <Col sm-12 md-6 lg-6>
+                                <img src={require("../images/reviews/review6.jpg")} className="reviewImg" alt="Family shoot testimonial 1" />
+                            </Col>
+                        </Row>
+                        <br />
+                        <br />
+                        <br />
+                        <Row>
+                            <Col sm-12 md-6 lg-6>
+                                <img src={require("../images/reviews/review5.jpg")} alt="Family shoot testimonial 2" className="reviewImg" />
+                            </Col>
+                            <Col sm-12 md-6 lg-6 className="reviewTextLeftAlign" > Highy recommended.
+                                We narrowed down VM pics (Varun) after going through lots of available options out there and
+                                he also came through as a reference from our close family friend.
+                                It was not the reference but his variety of work, the natural pictures he had on his profile
+                                and the affordability which confirmed our choice.
+                                We shot outdoors and his experience with the light,
+                                composure and camera work is great. We couldn't just select the best out of final pictures
+                                and ended up getting all. We highly recommend Varun for shoots and cannot speak highly of his work ethic.
+                                Try him! you won't be disappointed…
+                                <br /><br />
+
+                                <div> - AANCAL AND PRATEEK </div>
+                            </Col>
+                        </Row>
+                        <br />
+                        <br />
+                        <br />
                         <Row>
                             <Col sm-12 md-6 lg-6 className="reviewTextRightAlign" >We recently had a newborn baby and were looking for a good
                                 and reasonably priced photographer to capture some family photos.
@@ -85,7 +121,8 @@ class Testimonials extends Component {
                     </div>
                 </Container>
                 <ReadyToEnquire />
-
+                <br />
+                <InstagramFeed />
                 <br />
                 <br />
                 <br />

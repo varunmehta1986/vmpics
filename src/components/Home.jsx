@@ -4,6 +4,7 @@ import Menu from './Menu';
 import Helmet from 'react-helmet'
 import HomeCarousel from "./HomeCarousel";
 import ReadyToInquire from "./ReadyToEnquire";
+import InstagramFeed from "./Gallery/InstagramFeed";
 
 class Home extends Component {
   render() {
@@ -14,20 +15,15 @@ class Home extends Component {
           <meta name="description" content='Family photographer in Hills District of NSW. Australia'></meta>
         </Helmet>
         <Menu></Menu>
-        <HomeCarousel />
-        <br />
-        <About />
-        <br />
-        <ReadyToInquire />
-        <br />
-
-        <div class="tagembed-container" style={{ width: '100%', height: '300px', overflow: 'auto' }}>
-          <div class="tagembed-socialwall" data-wall-id="37711" view-url="https://widget.tagembed.com/37711?view">
-          </div>
+        <div className="container-fluid">
+          <HomeCarousel />
+          <br />
+          <About />
+          <br />
+          <ReadyToInquire />
+          <br />
+          <InstagramFeed />
         </div>
-
-        <br />
-        <br />
       </div>
 
     );
