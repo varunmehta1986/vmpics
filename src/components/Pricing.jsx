@@ -97,7 +97,7 @@ class Pricing extends Component {
                             <div className="row no-gutters">
                                 <div className="col-md-4">
                                     <div className="pricingcard">
-                                        <Card.Img src={require("../images/gold+.jpg")} alt="Gold plus" />
+                                        <Card.Img src={require("../images/gold plus.jpg")} alt="Gold plus" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@ class Pricing extends Component {
                             <div className="row no-gutters">
                                 <div className="col-md-4">
                                     <div className="pricingcard">
-                                        <Card.Img src={require("../images/platinum+.jpg")} alt="platinum plus" />
+                                        <Card.Img src={require("../images/platinum plus.jpg")} alt="platinum plus" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                                     </div>
                                 </div>
