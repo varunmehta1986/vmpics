@@ -75,7 +75,6 @@ class Pricing extends Component {
                                                 <li>Included digital edited images : 20</li>
                                                 <li>5-7 days of turn-around time</li>
                                                 <li>Extra photos for $20 each</li>
-                                                <li>Recommended for Family and Maternity shoots</li>
                                             </ul>
                                             <br />
                                         </Card.Text>
@@ -94,12 +93,48 @@ class Pricing extends Component {
                                 </div>
                             </div>
                         </div>
-
                         <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
                                     <div className="pricingcard">
-                                        <Card.Img src={require("../images/maternity.jpg")} alt="maternity photo" />
+                                        <Card.Img src={require("../images/gold+.jpg")} alt="Gold plus" />
+                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
+                                    </div>
+                                </div>
+                                <div className="col-md-8">
+                                    <Card.Body>
+                                        <Card.Title>GOLD PLUS(Most recommended)</Card.Title>
+                                        <Card.Text>
+                                            <ul>
+                                                <li>Price : $350</li>
+                                                <li>Session Duration : 60 minutes</li>
+                                                <li>Personalized client gallery to view photos</li>
+                                                <li>Included digital edited images : 25</li>
+                                                <li>$50 Shop credit included</li>
+                                                <li>5-7 days of turn-around time</li>
+                                                <li>Extra photos for $20 each</li>
+                                            </ul>
+                                            <br />
+                                        </Card.Text>
+                                    </Card.Body>
+                                    <Card.Footer>
+                                        <Nav.Link className="btn btn-dark"
+                                            style={{
+                                                margin: "1px", display: "inline-block",
+                                                padding: "6px", width: "176px"
+                                            }}
+                                            href="/contact">Book a session</Nav.Link>
+                                        <Button variant="secondary"
+                                            href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                                    </Card.Footer>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card mb-3" style={{ maxWidth: '700px' }}>
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <div className="pricingcard">
+                                        <Card.Img src={require("../images/maternity.jpg")} alt="platinum" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                                     </div>
                                 </div>
@@ -108,8 +143,8 @@ class Pricing extends Component {
                                         <Card.Title>PLATINUM</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $450</li>
-                                                <li>Session Duration : 60-75 minutes </li>
+                                                <li>Price : $500</li>
+                                                <li>Session Duration : 75 minutes </li>
                                                 <li>Personalized client gallery to view photos</li>
                                                 <li>Included digital edited images : Complete gallery</li>
                                                 <li>8-12 days of turn-around time</li>
@@ -133,7 +168,45 @@ class Pricing extends Component {
                                 </div>
                             </div>
                         </div>
+                        <div className="card mb-3" style={{ maxWidth: '700px' }}>
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <div className="pricingcard">
+                                        <Card.Img src={require("../images/platinum+.jpg")} alt="platinum plus" />
+                                        <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
+                                    </div>
+                                </div>
+                                <div className="col-md-8">
+                                    <Card.Body>
+                                        <Card.Title>PLATINUM PLUS(Best value)</Card.Title>
+                                        <Card.Text>
+                                            <ul>
+                                                <li>Price : $550</li>
+                                                <li>Session Duration : 75 minutes</li>
+                                                <li>$75 Shop credit included</li>
+                                                <li>Personalized client gallery to view photos</li>
+                                                <li>Included digital edited images : Complete gallery</li>
+                                                <li>8-12 days of turn-around time for the digitals</li>
+                                            </ul>
+                                            <br />
+                                            <br />
+                                            <br />
+                                        </Card.Text>
+                                    </Card.Body>
+                                    <Card.Footer>
 
+                                        <Nav.Link className="btn btn-dark"
+                                            style={{
+                                                margin: "1px", display: "inline-block",
+                                                padding: "6px", width: "176px"
+                                            }}
+                                            href="/contact">Book a session</Nav.Link>
+                                        <Button variant="secondary"
+                                            href="https://squareup.com/gift/MLPPHA53H007N/order">Gift this to someone!</Button>
+                                    </Card.Footer>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                     <br />
