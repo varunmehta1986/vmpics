@@ -15,7 +15,7 @@ export class PicTimeGalleries extends Component {
                 <Menu></Menu>
                 <script src='https://pictimecloudaf-p.azureedge.net/pictures/scripts/compiled/artgalleryembed.js'>
                 </script><iframe frameborder='0' id='pictimeIntegration' title="pictimeiframe"
-                    src='https://vmpics.pic-time.com/client?headless=true&noSyncNavigation=true' style={{ width: "100%", height: "1080px" }}
+                    src='https://gallery.vmpics.com.au/client?headless=true&noSyncNavigation=true' style={{ width: "100%", height: "1080px" }}
                 ></iframe>
             </div>
         )
