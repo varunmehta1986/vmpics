@@ -7,5 +7,7 @@ export default (
         <Route path="/investment" />
         <Route path="/faq" />
         <Route path="/clientgallery" />
+        <Route path="/blog" />
+        <Route path="/blog/goldenhour-in-photography" />
     </Route>
 );

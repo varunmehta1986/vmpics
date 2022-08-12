@@ -6,6 +6,8 @@ import Pricing from "./components/Pricing";
 import Faqs from "./components/Faqs";
 import PicTimeGalleries from './components/Gallery/PicTimeGalleries';
 import Testimonials from './components/Testimonials';
+import Blog from './components/Blogs/Blog';
+import GoldenHour from './components/Blogs/GoldenHour';
 
 function Routes() {
   return (
@@ -17,6 +19,8 @@ function Routes() {
         <Route path="/faq" component={Faqs} />
         <Route path="/clientgallery" component={PicTimeGalleries} />
         <Route path="/testimonials" component={Testimonials} />
+        <Route path="/blog" exact component={Blog} />
+        <Route path="/blog/golden-hour-in-photography" component={GoldenHour} />
       </Switch>
     </Router>
   )

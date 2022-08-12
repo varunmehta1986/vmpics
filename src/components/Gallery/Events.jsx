@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Menu from '../Menu';
 import S3Gallery from './S3Gallery';
 import MetaTags from 'react-meta-tags';
+
 export class Events extends Component {
     render() {
         return (
@@ -12,7 +13,6 @@ export class Events extends Component {
                     </title>
                     <meta name="description" content="VMPics Photographer - Event Photo Gallery"></meta>
                 </MetaTags>
-
                 <Menu></Menu>
                 <div>
                     <S3Gallery albumName="event"></S3Gallery>
