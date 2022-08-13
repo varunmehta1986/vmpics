@@ -41,7 +41,6 @@ class Pricing extends Component {
                                             <br />
                                             <br />
                                         </Card.Text>
-
                                     </Card.Body>
                                     <Card.Footer>
                                         <Nav.Link className="btn btn-dark"
@@ -76,6 +75,7 @@ class Pricing extends Component {
                                                 <li>5-7 days of turn-around time</li>
                                                 <li>Extra photos for $20 each</li>
                                             </ul>
+                                            <br />
                                             <br />
                                         </Card.Text>
                                     </Card.Body>

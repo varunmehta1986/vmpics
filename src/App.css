@@ -103,15 +103,13 @@ html {
 }
 
 .reviewTextRightAlign {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
   text-align: right;
 }
 .reviewTextLeftAlign {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -128,7 +126,6 @@ html {
 }
 
 .aboutmeText {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: justify;
 }
 
@@ -142,7 +139,6 @@ html {
 }
 
 .readyToEnquireFont {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -166,6 +162,21 @@ html {
   color: white;
 }
 
-h4{
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+a:link {
+  color: #444444;
+}
+
+/* visited link */
+a:visited {
+  color: #444444;;
+}
+
+/* mouse over link */
+a:hover {
+  color: #444444;;
+}
+
+/* selected link */
+a:active {
+  color: #444444;;
 }

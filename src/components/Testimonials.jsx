@@ -49,7 +49,7 @@ class Testimonials extends Component {
                                 Try him! you won't be disappointed…
                                 <br /><br />
 
-                                <div> - AANCAL AND PRATEEK </div>
+                                <div> - AANCHAL AND PRATEEK </div>
                             </Col>
                         </Row>
                         <br />
