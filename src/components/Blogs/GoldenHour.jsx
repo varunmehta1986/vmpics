@@ -9,11 +9,12 @@ export class GoldenHour extends Component {
                 <Helmet>
                     <title>What is golden hour in photography?</title>
                     <meta name="description" content='What is golden hour in photgraphy and why do I love having maternity and family sessions during golden hour?'></meta>
-                    <meta name="robots" content="index, follow"> </meta>
-                    <meta property="og:type" content="article" />
-                    <meta property="og:title" content="Golden hour in photogrpahy" />
-                    <meta property="og:description" content="What is golden hour in photgraphy and why do I love having maternity and family sessions during golden hour?" />
-                    <meta property="og:url" content="https://www.vmpics.com.au/blog/golden-hour-in-photography" />
+                    <meta name="robots" content="index, follow"></meta>
+                    <meta property="og:type" content="article"></meta>
+                    <meta property="og:title" content="Golden hour in photogrpahy"></meta>
+                    <meta property="og:description" content="What is golden hour in photgraphy and why do I 
+                                love having maternity and family sessions during golden hour?"></meta>
+                    <meta property="og:url" content="https://www.vmpics.com.au/blog/golden-hour-in-photography"></meta>
                 </Helmet>
                 <Menu></Menu>
                 <div className='container'>
