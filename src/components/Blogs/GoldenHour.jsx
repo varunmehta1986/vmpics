@@ -7,13 +7,18 @@ export class GoldenHour extends Component {
         return (
             <div>
                 <Helmet>
-                    <title>Golden Hour in Photography</title>
-                    <meta name="description" content='Golden hour in photography'></meta>
+                    <title>What is golden hour in photography?</title>
+                    <meta name="description" content='What is golden hour in photgraphy and why do I love having maternity and family sessions during golden hour?'></meta>
+                    <meta name="robots" content="index, follow"> </meta>
+                    <meta property="og:type" content="article" />
+                    <meta property="og:title" content="Golden hour in photogrpahy" />
+                    <meta property="og:description" content="What is golden hour in photgraphy and why do I love having maternity and family sessions during golden hour?" />
+                    <meta property="og:url" content="https://www.vmpics.com.au/blog/golden-hour-in-photography" />
                 </Helmet>
                 <Menu></Menu>
                 <div className='container'>
 
-                    <h1 style={{ color: "#444444" }}>
+                    <h1>
                         WHAT IS GOLDEN HOUR ? AND WHY DO I LOVE IT !
                     </h1>
                     <br />
@@ -27,10 +32,10 @@ export class GoldenHour extends Component {
                                     Can we have our session in the afternoon between 1PM and 2PM ? OR
                                 </li>
                                 <li>
-                                    Why our session is scheduled so late in the afternoon, would there be enough light ? OR
+                                    Our session is scheduled so late in the afternoon, would there be enough light? OR
                                 </li>
                                 <li>
-                                    The weather forecast shows its going to be a cloudy day, is it going to be a good day to have a session without the sun?
+                                    The weather forecast shows it's going to be a cloudy day, is it going to be a good day to have a session without the sun?
                                 </li>
                             </ul>
                         </div>
@@ -45,7 +50,7 @@ export class GoldenHour extends Component {
                             It's the time when the sun is not too harsh and not too bright and given a perfect soft light that is almost golden. And hence the golden hour.
                         </p>
                         <p>
-                            So is golden hour the best time for photos? Yes, But it is NOT the only time to get the best photos.
+                            So is golden hour the best time for photos? Yes, but it is NOT the only time to get the best photos.
                             A cloudy day, when the sun rays are not directly hitting the face, and is behind the clouds,
                             giving a softer white light can create some amazing images as well.
                         </p>
@@ -61,14 +66,14 @@ export class GoldenHour extends Component {
                                 <p>
                                     Which brings me to the last concern and the most raised one, will there be enough light that late in the afternoon? <br />
                                     Maybe not, but, modern professional cameras including both DSLRs and Mirrorless work great in low light conditions and can achieve great results in the right hands.
-                                    Mirrorless cameras specially, perform a lot better than in comparision to the DSLRs in low light. I am a Nikon user and own both mirrorless and
+                                    Mirrorless cameras specially, perform a lot better in comparision to the DSLRs in low light. I am a Nikon user and own both mirrorless and
                                     DSLR Full frame cameras and they are both great in low light. But this holds true for other brands as well like Canon, Sony, Fuji etc,
                                 </p>
                             </div>
                         </div>
                         <p>
                             <br />
-                            I hope you found this article useful and if you own a professional camera, do try shooting in golden hour.
+                            I hope you found this article useful. If you own a professional camera, do try shooting in golden hour.
                         </p>
                         <p> P.S. <br />
                             Sneak peak into the gallery from this shoot here -
