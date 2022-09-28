@@ -8,6 +8,7 @@ import PicTimeGalleries from './components/Gallery/PicTimeGalleries';
 import Testimonials from './components/Testimonials';
 import Blog from './components/Blogs/Blog';
 import GoldenHour from './components/Blogs/GoldenHour';
+import { MyEquipment } from './components/Blogs/MyEquipment';
 
 function Routes() {
   return (
@@ -21,6 +22,7 @@ function Routes() {
         <Route path="/testimonials" component={Testimonials} />
         <Route path="/blog" exact component={Blog} />
         <Route path="/blog/golden-hour-in-photography" component={GoldenHour} />
+        <Route path="/blog/what-do-i-shoot-with" component={MyEquipment} />
       </Switch>
     </Router>
   )
