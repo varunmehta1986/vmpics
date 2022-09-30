@@ -58,7 +58,7 @@ export class MyEquipment extends Component {
                         </ol>
 
 
-                        <b>LENSES ( in increasing order of focal length) </b>
+                        <b>LENSES</b>( in increasing order of focal length)
                         <ol>
                             <li><a href='https://amzn.asia/d/6sFWcyE'>Sigma 35mm f/1.4 DG HSM Art</a> </li>
                             <li><a href='https://amzn.asia/d/gRtzgcz'>Nikon Nikkor Z 40mm f/2</a></li>
@@ -68,22 +68,24 @@ export class MyEquipment extends Component {
 
                         <b>FLASHES</b>
                         <ol>
-                            <li>Nikon SB700 </li>
-                            <li>Godox</li>
+                            <li><a href='https://amzn.asia/d/cQn2ttW'>Nikon SB-700 Speedlight Flash</a></li>
+                            <li><a href='https://amzn.asia/d/ch9CGNv'>Godox TT685 N Speedlite HSS 1/8000s GN60 Think Lite 2.4GHz TTL Flash</a></li>
                         </ol>
 
                         <b>BAGS</b>
                         <ol>
-                            <li>Temba</li>
+                            <li><a href='https://amzn.asia/d/14GFzts'>Tenba Axis 24 L Backpack</a></li>
+                            <li><a href='https://www.jbhifi.com.au/products/lowepro-adventura-sh-140-ii-dslr-bag'>Lowepro Adventura SH 140 II DSLR Bag</a></li>
                         </ol>
 
                         <b>STRAPS</b>
                         <ol>
-                            <li>Cairo</li>
-                            <li>Blackrapid</li>
+                            <li><a href='https://amzn.asia/d/dLH59Az'> Dual Shoulder Leather Harness –
+                                Multi Camera Gear for DSLR/SLR Black ProInStyle Strap by Coiro</a></li>
+                            <li><a href='https://amzn.asia/d/d6DvCud'> BlackRapid Metro Camera Sling</a></li>
                         </ol>
 
-                        <b>REST</b><br></br>
+                        <li>Rest</li><br></br>
                         Spare camera batteries, spare rechargeable batteries for flash, lens cleaner, sensor cleaner
                     </p>
                     <p>
