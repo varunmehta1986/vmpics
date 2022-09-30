@@ -25,8 +25,13 @@ export class MyEquipment extends Component {
                     </p>
 
                     <p>
-                        Like many(read almost all) others,  I started my photography journey as a hobby and didnt want to to spend too much.
-                        I purchased my first DSLR, a Nikon D7100 in 2016 and a 35mm Nikon prime lens which is around 52mm on crop sensor D7100. Why I start with Nikon? I just had a bad experience with Canon point and shoot i bought in 2012, but DSLR/Mirrorless is a different ball game and I was too naive to understand that at that time.
+                        Like many(read almost all) others,  I started my photography journey as a hobby and didn't want to to spend too much.
+                        I purchased my first crop sensor DSLR,
+                        a <a href='https://www.nikonusa.com/en/nikon-products/product-archive/dslr-cameras/d7100.html'>
+                            Nikon D7100</a> in 2016 and a <a href='https://www.jbhifi.com.au/products/nikon-af-s-dx-nikkor-35mm-f-1-8g-lens'>
+                            35mm Nikon prime lens </a> which is around 52mm on crop sensor D7100.
+                        Why I started with Nikon? I just had a bad experience with Canon point and shoot i bought in 2012,
+                        but DSLR/Mirrorless is a different ball game and I was too naive to understand that at that time.
 
                         And that is all I had for a very long time(4 years). After I moved to Australia,
                         I started doing professional shoots with that body and lens only and it worked alright for some time.
@@ -34,25 +39,31 @@ export class MyEquipment extends Component {
 
                     <p>
                         As my clientele started to grow and the variety of shoots, I started to realize the limitations of having a single fixed focal length lens.
-                        So next, I bought another body Nikon D750(full frame) and a Nikon 85mm 1.8G fixed focal length lens. I started carrying 2 bodies to all my shoots now that solves two purposes, I can switch between 2 focal lengths and I also have a backup in case one of the bodies give up on me. From here on I kept upgrading and puchasing new lenses, a mirrorless Nikon z6ii, another full frame, flashes, dual camera straps etc .
+                        So next, I bought full frame body
+                        <a href='https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d750.html'>Nikon D750 </a>
+                        and a <a href='https://www.amazon.com.au/Nikon-AF-S-85mm-f1-8-G/dp/B006TAP096?th=1'> Nikon 85mm 1.8G </a>
+                        fixed focal length lens.
+                        I started carrying 2 bodies to all my shoots now that solves two purposes,
+                        I can switch between 2 focal lengths and I also have a backup in case one of the bodies give up on me.
+                        From here on I kept upgrading and puchasing new lenses, a mirrorless Nikon z6ii, another full frame body, flashes, dual camera straps etc .
                     </p>
 
                     <p>
-                        Here is a list of everything I have in my bag now (including the bag) -
+                        Here is a list of everything I currently have in my bag now (including the bag) -
                         <br></br><br></br>
                         <b>BODIES -</b>
                         <ol>
-                            <li>Nikon D750</li>
-                            <li>Nikon Z6II</li>
+                            <li><a href='https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d750.html'>Nikon D750 </a></li>
+                            <li><a href='https://amzn.asia/d/1OPzxFK'>Nikon Z6II</a></li>
                         </ol>
 
 
                         <b>LENSES ( in increasing order of focal length) </b>
                         <ol>
-                            <li>Sigma 35mm 1.4f </li>
-                            <li>Nikon 40mm 2.0f </li>
-                            <li> Nikon 50mm 1.8f </li>
-                            <li> Nikon 85mm 1.8f </li>
+                            <li><a href='https://amzn.asia/d/6sFWcyE'>Sigma 35mm f/1.4 DG HSM Art</a> </li>
+                            <li><a href='https://amzn.asia/d/gRtzgcz'>Nikon Nikkor Z 40mm f/2</a></li>
+                            <li><a href='https://amzn.asia/d/f38okyW'>Nikon AF-S 50mm f1.8G</a> </li>
+                            <li><a href='https://amzn.asia/d/gDGajVy'>Nikon Nikkor AF-S 85mm f1.8 G</a></li>
                         </ol>
 
                         <b>FLASHES</b>
@@ -69,6 +80,7 @@ export class MyEquipment extends Component {
                         <b>STRAPS</b>
                         <ol>
                             <li>Cairo</li>
+                            <li>Blackrapid</li>
                         </ol>
 
                         <b>REST</b><br></br>
