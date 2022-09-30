@@ -85,7 +85,7 @@ export class MyEquipment extends Component {
                             <li><a href='https://amzn.asia/d/d6DvCud'> BlackRapid Metro Camera Sling</a></li>
                         </ol>
 
-                        <li>Rest</li><br></br>
+                        <b>Rest</b><br></br>
                         Spare camera batteries, spare rechargeable batteries for flash, lens cleaner, sensor cleaner
                     </p>
                     <p>
