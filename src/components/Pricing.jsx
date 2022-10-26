@@ -31,7 +31,7 @@ class Pricing extends Component {
                                         <Card.Title>SILVER</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $150</li>
+                                                <li>Price : $200</li>
                                                 <li>Best suited for potraits/head shots</li>
                                                 <li>Session Duration : 30 minutes</li>
                                                 <li>Personalized client gallery to view photos</li>
@@ -69,10 +69,10 @@ class Pricing extends Component {
                                         <Card.Title>GOLD</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $250</li>
+                                                <li>Price : $300</li>
                                                 <li>Session Duration : 60 minutes</li>
                                                 <li>Personalized client gallery to view photos</li>
-                                                <li>Included digital edited images : 15</li>
+                                                <li>Included digital edited images : 20</li>
                                                 <li>5-7 days of turn-around time</li>
                                                 <li>Extra photos for $20 each</li>
                                             </ul>
@@ -107,7 +107,7 @@ class Pricing extends Component {
                                         <Card.Title>GOLD PLUS(Most recommended)</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $350</li>
+                                                <li>Price : $400</li>
                                                 <li>Session Duration : 60 minutes</li>
                                                 <li>Personalized client gallery to view photos</li>
                                                 <li>Included digital edited images : 25</li>
@@ -144,7 +144,7 @@ class Pricing extends Component {
                                         <Card.Title>PLATINUM</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $500</li>
+                                                <li>Price : $600</li>
                                                 <li>Session Duration : 75 minutes </li>
                                                 <li>Personalized client gallery to view photos</li>
                                                 <li>Included digital edited images : Complete gallery</li>
@@ -182,9 +182,9 @@ class Pricing extends Component {
                                         <Card.Title>PLATINUM PLUS(Best value)</Card.Title>
                                         <Card.Text>
                                             <ul>
-                                                <li>Price : $550</li>
+                                                <li>Price : $650</li>
                                                 <li>Session Duration : 75 minutes</li>
-                                                <li>$75 Shop credit included</li>
+                                                <li>$100 Shop credit included</li>
                                                 <li>Personalized client gallery to view photos</li>
                                                 <li>Included digital edited images : Complete gallery</li>
                                                 <li>8-12 days of turn-around time for the digitals</li>
