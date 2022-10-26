@@ -15,7 +15,7 @@ export class MyEquipment extends Component {
                         WHAT EQUIPMENT DO I SHOOT WITH ?
                     </h1>
                     <p>
-                        There are so many options available in the market today, that it's very east for a newbie will get lost to what
+                        There are so many options available in the market today, that it's very easy for a newbie will get lost to what
                         equipment to go for and which one takes the best photos.
                         There is DSLR and mirrorless that are either crop sensor or full frame.
                     </p>
@@ -30,7 +30,7 @@ export class MyEquipment extends Component {
                         a <a href='https://www.nikonusa.com/en/nikon-products/product-archive/dslr-cameras/d7100.html'>
                             Nikon D7100</a> in 2016 and a <a href='https://www.jbhifi.com.au/products/nikon-af-s-dx-nikkor-35mm-f-1-8g-lens'>
                             35mm Nikon prime lens </a> which is around 52mm on crop sensor D7100.
-                        Why I started with Nikon? I just had a bad experience with Canon point and shoot i bought in 2012,
+                        Why I started with Nikon? I just had a bad experience with Canon point and shoot I bought in 2012,
                         but DSLR/Mirrorless is a different ball game and I was too naive to understand that at that time.
 
                         And that is all I had for a very long time(4 years). After I moved to Australia,
@@ -38,8 +38,8 @@ export class MyEquipment extends Component {
                     </p>
 
                     <p>
-                        As my clientele started to grow and the variety of shoots, I started to realize the limitations of having a single fixed focal length lens.
-                        So next, I bought full frame body
+                        As my clientele started to grow and the variety of shoots I was getting, I started to realize the limitations of having a single fixed focal length lens.
+                        So next, I bought full frame body &nbsp;
                         <a href='https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d750.html'>Nikon D750 </a>
                         and a <a href='https://www.amazon.com.au/Nikon-AF-S-85mm-f1-8-G/dp/B006TAP096?th=1'> Nikon 85mm 1.8G </a>
                         fixed focal length lens.
@@ -85,8 +85,11 @@ export class MyEquipment extends Component {
                             <li><a href='https://amzn.asia/d/d6DvCud'> BlackRapid Metro Camera Sling</a></li>
                         </ol>
 
+                        <b>TRIPODS</b>
+
+
                         <b>Rest</b><br></br>
-                        Spare camera batteries, spare rechargeable batteries for flash, lens cleaner, sensor cleaner
+                        Spare camera batteries, spare rechargeable batteries for flash, lens cleaner, sensor cleaner etc
                     </p>
                     <p>
                         That is what I have as on the date of writing this article, what I use during a shoot totally depends on the type of shoot,
