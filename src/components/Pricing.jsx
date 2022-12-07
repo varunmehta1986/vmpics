@@ -21,22 +21,22 @@ class Pricing extends Component {
                         <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <div className="pricingcard">
-                                        <img src={require("../images/potrait.jpg")} className="card-img" alt="family" />
+                                    <div className="text-center img-fluid pricingcard">
+                                        <img src={require("../images/potrait.jpg")} style={{ maxWidth: '395px' }} className="rounded" alt="headshot" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery"> View Gallery</Nav.Link>
                                     </div>
                                 </div>
                                 <div className="col-md-8">
                                     <Card.Body>
-                                        <Card.Title><b>POTRAITS</b></Card.Title>
+                                        <Card.Title>POTRAITS</Card.Title>
                                         <Card.Text>
                                             - Price : $200 <br />
-                                            - Best suited for potraits/head shots <br />
                                             - Session Duration : 30 minutes<br />
                                             - Personalized client gallery to view photos<br />
                                             - Included digital edited images : 5 <br />
                                             - 5-7 days of turn-around time<br />
                                             - Extra photos for $20 each <br />
+                                            <br />
                                             <br />
                                             <br />
                                         </Card.Text>
@@ -45,7 +45,7 @@ class Pricing extends Component {
                                         <Nav.Link className="btn btn-dark"
                                             style={{
                                                 margin: "1px", display: "inline-block",
-                                                padding: "6px", width: "176px"
+                                                padding: "6px", width: "176px", color: "white"
                                             }}
                                             href="/contact">Book a session</Nav.Link>
                                         <Button variant="secondary"
@@ -57,8 +57,8 @@ class Pricing extends Component {
                         <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <div className="pricingcard">
-                                        <Card.Img src={require("../images/family2.jpg")} alt="maternity photo" />
+                                    <div className="text-center img-fluid pricingcard">
+                                        <Card.Img src={require("../images/family2.jpg")} style={{ maxWidth: '395px' }} alt="maternity photo" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                                     </div>
                                 </div>
@@ -74,6 +74,7 @@ class Pricing extends Component {
                                             - Extra photos for $20 each<br />
                                             <br />
                                             <br />
+                                            <br />
                                         </Card.Text>
                                     </Card.Body>
                                     <Card.Footer>
@@ -81,7 +82,7 @@ class Pricing extends Component {
                                         <Nav.Link className="btn btn-dark"
                                             style={{
                                                 margin: "1px", display: "inline-block",
-                                                padding: "6px", width: "176px"
+                                                padding: "6px", width: "176px", color: "white"
                                             }}
                                             href="/contact">Book a session</Nav.Link>
                                         <Button variant="secondary"
@@ -93,8 +94,8 @@ class Pricing extends Component {
                         <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <div className="pricingcard">
-                                        <Card.Img src={require("../images/gold plus.jpg")} alt="Gold plus" />
+                                    <div className="text-center img-fluid pricingcard">
+                                        <Card.Img src={require("../images/gold plus.jpg")} style={{ maxWidth: '395px' }} alt="Gold plus" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                                     </div>
                                 </div>
@@ -110,13 +111,14 @@ class Pricing extends Component {
                                             - 10-14 days of turn-around time<br />
                                             - Extra photos for $20 each<br />
                                             <br />
+                                            <br />
                                         </Card.Text>
                                     </Card.Body>
                                     <Card.Footer>
                                         <Nav.Link className="btn btn-dark"
                                             style={{
                                                 margin: "1px", display: "inline-block",
-                                                padding: "6px", width: "176px"
+                                                padding: "6px", width: "176px", color: "white"
                                             }}
                                             href="/contact">Book a session</Nav.Link>
                                         <Button variant="secondary"
@@ -128,8 +130,8 @@ class Pricing extends Component {
                         <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <div className="pricingcard">
-                                        <Card.Img src={require("../images/maternity.jpg")} alt="platinum" />
+                                    <div className="text-center img-fluid pricingcard">
+                                        <Card.Img src={require("../images/maternity.jpg")} style={{ maxWidth: '395px' }} alt="platinum" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                                     </div>
                                 </div>
@@ -145,6 +147,7 @@ class Pricing extends Component {
                                             <br />
                                             <br />
                                             <br />
+                                            <br />
                                         </Card.Text>
                                     </Card.Body>
                                     <Card.Footer>
@@ -152,7 +155,7 @@ class Pricing extends Component {
                                         <Nav.Link className="btn btn-dark"
                                             style={{
                                                 margin: "1px", display: "inline-block",
-                                                padding: "6px", width: "176px"
+                                                padding: "6px", width: "176px", color: "white"
                                             }}
                                             href="/contact">Book a session</Nav.Link>
                                         <Button variant="secondary"
@@ -164,8 +167,8 @@ class Pricing extends Component {
                         <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <div className="pricingcard">
-                                        <Card.Img src={require("../images/platinum plus.jpg")} alt="platinum plus" />
+                                    <div className="text-center img-fluid pricingcard">
+                                        <Card.Img src={require("../images/platinum plus.jpg")} style={{ maxWidth: '395px' }} alt="platinum plus" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery">View Gallery</Nav.Link>
                                     </div>
                                 </div>
@@ -189,7 +192,7 @@ class Pricing extends Component {
                                         <Nav.Link className="btn btn-dark"
                                             style={{
                                                 margin: "1px", display: "inline-block",
-                                                padding: "6px", width: "176px"
+                                                padding: "6px", width: "176px", color: "white"
                                             }}
                                             href="/contact">Book a session</Nav.Link>
                                         <Button variant="secondary"
