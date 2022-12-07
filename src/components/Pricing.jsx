@@ -15,8 +15,7 @@ class Pricing extends Component {
                 <Menu></Menu>
                 <div className="container">
                     <h3>INVESTMENT</h3>
-                    <p>
-                        Below are our packages that can be customized as per your needs.</p>
+                    <p>Your investment for lifetime memories.</p>
                     <div className="row">
                         <div className="card mb-3" style={{ maxWidth: '700px' }}>
                             <div className="row no-gutters">
@@ -64,7 +63,7 @@ class Pricing extends Component {
                                 </div>
                                 <div className="col-md-8">
                                     <Card.Body>
-                                        <Card.Title>GOLD</Card.Title>
+                                        <Card.Title>VMPics Digital</Card.Title>
                                         <Card.Text>
                                             - Price : $300 <br />
                                             - Session Duration : 60 minutes<br />
@@ -101,7 +100,7 @@ class Pricing extends Component {
                                 </div>
                                 <div className="col-md-8">
                                     <Card.Body>
-                                        <Card.Title>GOLD PLUS(Most recommended)</Card.Title>
+                                        <Card.Title>VMPics Digital+ (Most recommended)</Card.Title>
                                         <Card.Text>
                                             - Price : $400 <br />
                                             - Session Duration : 60 minutes<br />
@@ -137,7 +136,7 @@ class Pricing extends Component {
                                 </div>
                                 <div className="col-md-8">
                                     <Card.Body>
-                                        <Card.Title>PLATINUM</Card.Title>
+                                        <Card.Title>VMPics Max</Card.Title>
                                         <Card.Text>
                                             - Price : $600 <br />
                                             - Session Duration : 75 minutes <br />
@@ -174,7 +173,7 @@ class Pricing extends Component {
                                 </div>
                                 <div className="col-md-8">
                                     <Card.Body>
-                                        <Card.Title>PLATINUM PLUS(Best value)</Card.Title>
+                                        <Card.Title>VMPics Max+(Best value)</Card.Title>
                                         <Card.Text>
                                             - Price : $650 <br />
                                             - Session Duration : 75 minutes<br />
