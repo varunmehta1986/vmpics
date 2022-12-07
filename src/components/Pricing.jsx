@@ -22,23 +22,21 @@ class Pricing extends Component {
                             <div className="row no-gutters">
                                 <div className="col-md-4">
                                     <div className="pricingcard">
-                                        <img src={require("../images/family.jpg")} className="card-img" alt="family" />
+                                        <img src={require("../images/potrait.jpg")} className="card-img" alt="family" />
                                         <Nav.Link className="btn" style={{ width: "140px" }} href="/clientgallery"> View Gallery</Nav.Link>
                                     </div>
                                 </div>
                                 <div className="col-md-8">
                                     <Card.Body>
-                                        <Card.Title>SILVER</Card.Title>
+                                        <Card.Title><b>POTRAITS</b></Card.Title>
                                         <Card.Text>
-                                            <ul>
-                                                <li>Price : $200</li>
-                                                <li>Best suited for potraits/head shots</li>
-                                                <li>Session Duration : 30 minutes</li>
-                                                <li>Personalized client gallery to view photos</li>
-                                                <li>Included digital edited images : 5 </li>
-                                                <li>5-7 days of turn-around time</li>
-                                                <li>Extra photos for $20 each</li>
-                                            </ul>
+                                            - Price : $200 <br />
+                                            - Best suited for potraits/head shots <br />
+                                            - Session Duration : 30 minutes<br />
+                                            - Personalized client gallery to view photos<br />
+                                            - Included digital edited images : 5 <br />
+                                            - 5-7 days of turn-around time<br />
+                                            - Extra photos for $20 each <br />
                                             <br />
                                             <br />
                                         </Card.Text>
@@ -68,14 +66,12 @@ class Pricing extends Component {
                                     <Card.Body>
                                         <Card.Title>GOLD</Card.Title>
                                         <Card.Text>
-                                            <ul>
-                                                <li>Price : $300</li>
-                                                <li>Session Duration : 60 minutes</li>
-                                                <li>Personalized client gallery to view photos</li>
-                                                <li>Included digital edited images : 20</li>
-                                                <li>5-7 days of turn-around time</li>
-                                                <li>Extra photos for $20 each</li>
-                                            </ul>
+                                            - Price : $300 <br />
+                                            - Session Duration : 60 minutes<br />
+                                            - Personalized client gallery to view photos<br />
+                                            - Included digital edited images : 20<br />
+                                            - 10-14 days of turn-around time<br />
+                                            - Extra photos for $20 each<br />
                                             <br />
                                             <br />
                                         </Card.Text>
@@ -106,15 +102,13 @@ class Pricing extends Component {
                                     <Card.Body>
                                         <Card.Title>GOLD PLUS(Most recommended)</Card.Title>
                                         <Card.Text>
-                                            <ul>
-                                                <li>Price : $400</li>
-                                                <li>Session Duration : 60 minutes</li>
-                                                <li>Personalized client gallery to view photos</li>
-                                                <li>Included digital edited images : 25</li>
-                                                <li>$50 Shop credit included</li>
-                                                <li>5-7 days of turn-around time</li>
-                                                <li>Extra photos for $20 each</li>
-                                            </ul>
+                                            - Price : $400 <br />
+                                            - Session Duration : 60 minutes<br />
+                                            - Personalized client gallery to view photos<br />
+                                            - Included digital edited images : 25<br />
+                                            - $50 Shop credit included<br />
+                                            - 10-14 days of turn-around time<br />
+                                            - Extra photos for $20 each<br />
                                             <br />
                                         </Card.Text>
                                     </Card.Body>
@@ -143,13 +137,11 @@ class Pricing extends Component {
                                     <Card.Body>
                                         <Card.Title>PLATINUM</Card.Title>
                                         <Card.Text>
-                                            <ul>
-                                                <li>Price : $600</li>
-                                                <li>Session Duration : 75 minutes </li>
-                                                <li>Personalized client gallery to view photos</li>
-                                                <li>Included digital edited images : Complete gallery</li>
-                                                <li>8-12 days of turn-around time</li>
-                                            </ul>
+                                            - Price : $600 <br />
+                                            - Session Duration : 75 minutes <br />
+                                            - Personalized client gallery to view photos<br />
+                                            - Included digital edited images : Complete gallery<br />
+                                            - 10-14 days of turn-around time<br />
                                             <br />
                                             <br />
                                             <br />
@@ -181,14 +173,12 @@ class Pricing extends Component {
                                     <Card.Body>
                                         <Card.Title>PLATINUM PLUS(Best value)</Card.Title>
                                         <Card.Text>
-                                            <ul>
-                                                <li>Price : $650</li>
-                                                <li>Session Duration : 75 minutes</li>
-                                                <li>$100 Shop credit included</li>
-                                                <li>Personalized client gallery to view photos</li>
-                                                <li>Included digital edited images : Complete gallery</li>
-                                                <li>8-12 days of turn-around time for the digitals</li>
-                                            </ul>
+                                            - Price : $650 <br />
+                                            - Session Duration : 75 minutes<br />
+                                            - $100 Shop credit included<br />
+                                            - Personalized client gallery to view photos<br />
+                                            - Included digital edited images : Complete gallery<br />
+                                            - 10-14 days of turn-around time for the digitals<br />
                                             <br />
                                             <br />
                                             <br />
@@ -213,34 +203,32 @@ class Pricing extends Component {
                     <br />
                     <div style={{ textAlign: 'left' }}>
                         <b>Terms & Conditions</b>
-                        <p>
-                            <ul>
-                                <li>
-                                    A 30% retainer(non-refundable deposit) is required to book a session. Remaining amount is due on the session day.
-                                </li>
-                                <li>
-                                    Travel fee is applied to shooting locations more than 20 Kms.
-                                </li>
-                                <li>
-                                    E-Gift cards do not have any expiry date.
-                                </li>
-                                <li>
-                                    E-Gifts card purchases are non-transferable and non-refundable.
-                                </li>
-                                <li>
-                                    Session booked using E-Gift Cards can be rescheduled only once
-                                </li>
-                                <li>
-                                    E-Gift card amount cannot be used to book multiple sessions.
-                                </li>
-                                <li>
-                                    Price is subject to change.
-                                </li>
-                                <li>
-                                    RAW photos cannot be shared for any of the packages.
-                                </li>
-                            </ul>
-                        </p>
+                        <ul>
+                            <li>
+                                A 30% retainer(non-refundable deposit) is required to book a session. Remaining amount is due on the session day.
+                            </li>
+                            <li>
+                                Travel fee is applied to shooting locations more than 20 Kms.
+                            </li>
+                            <li>
+                                E-Gift cards do not have any expiry date.
+                            </li>
+                            <li>
+                                E-Gifts card purchases are non-transferable and non-refundable.
+                            </li>
+                            <li>
+                                Session booked using E-Gift Cards can be rescheduled only once
+                            </li>
+                            <li>
+                                E-Gift card amount cannot be used to book multiple sessions.
+                            </li>
+                            <li>
+                                Price is subject to change.
+                            </li>
+                            <li>
+                                RAW photos cannot be shared for any of the packages.
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
