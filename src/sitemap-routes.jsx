@@ -9,5 +9,6 @@ export default (
         <Route path="/clientgallery" />
         <Route path="/blog" />
         <Route path="/blog/goldenhour-in-photography" />
+        <Route path="/blog/what-do-i-shoot-with" />
     </Route>
 );

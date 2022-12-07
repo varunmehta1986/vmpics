@@ -14,14 +14,16 @@ export class Blog extends Component {
                 <div className="container">
                     <h2>My Blogs</h2>
                     <div className='row'>
-                        <div className='col-12'>
+                        <div className='col-6'>
                             <a href='/blog/golden-hour-in-photography'>
                                 <img src={require("../../images/GoldenHour.jpg")} alt="Golden hour blog" className="img-fluid"></img>
+                                <h4>WHAT IS GOLDEN HOUR ?</h4>
                             </a>
                         </div>
-                        <div className='col-12'>
-                            <a href='/blog/golden-hour-in-photography' >
-                                <h4>WHAT IS GOLDEN HOUR ?</h4>
+                        <div>
+                            <a href='/blog/what-do-i-shoot-with'>
+                                <img src={require("../../images/Equipment.jpg")} alt="Golden hour blog" width="450px" className="img-fluid"></img>
+                                <h4>WHAT DO I SHOOT WITH ?</h4>
                             </a>
                         </div>
                     </div>
