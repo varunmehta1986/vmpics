@@ -11,17 +11,23 @@ class About extends Component {
           <Row>
             <Col className='aboutmeText' md-6 lg-6 sm-12>
               <h4>HI, I AM VARUN</h4> <br />
+              <p>
+                I am a professional photographer specializing in capturing life's precious moments through my lens.
+                My passion for photography started at a young age, and I have honed my skills over the years to become the photographer I am today.
+                My aim is to provide you with stunning and timeless photos that you can cherish for a lifetime.</p>
+              <p>
+                My photography style is a blend of modern and classic, capturing natural and candid moments while also creating stunning portraits.
+                I specialize in various types of photography, including family portraits, maternity photography, and family events.</p>
+              <p>
+                As you explore my portfolio, you'll find a collection of my favorite shots, showcasing my love for capturing natural light and spontaneous moments. I believe that every photograph has a story to tell, and my goal is to capture those stories in the most authentic and beautiful way possible.
+              </p>
+              <p>
+                If you're looking for a photographer who can bring your vision to life, then I would love to work with you. Please feel free to get in touch with me to discuss your photography needs. Thank you for visiting my website!
+              </p>             <br />
 
-              A software
-              engineer by my first profession, I had a keen interest in photography from a very long time. And I started taking it seriously and made it my second profession in 2020
-              after I moved to Australia. Over the past years, I have learnt that it is important to know your equipment, light, composition, etc, but even more important is to make your
-              client comfortable in front of the camera. And that is exactly what you get when you are shooting with me along with amazing captures.
-              <br />
-              <br />
-
-              I have been featured as Shutterturf's top family photographers in Sydney. You can read more about it
-              in <a href='https://www.shutterturf.com/blog/family-photographers-sydney' rel="noopener noreferrer"
-                target='_blank'>this article</a>
+              <p>           I have been featured as Shutterturf's top family photographers in Sydney. You can read more about it
+                in <a href='https://www.shutterturf.com/blog/family-photographers-sydney' rel="noopener noreferrer"
+                  target='_blank'>this article</a></p>
             </Col>
             <Col md-6 lg-6 sm-12>
               <Image src={require("../images/aboutme.jpg")} fluid alt="about me" className="aboutmeImg" ></Image>
