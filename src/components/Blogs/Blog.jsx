@@ -27,6 +27,8 @@ export class Blog extends Component {
                             </a>
                         </div>
                     </div>
+
+                    <a href="https://gallery.vmpics.com.au/Py0k9jMYQF3BL">Nida's Maternity Shoot</a>
                 </div>
             </div>
         )
