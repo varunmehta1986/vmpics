@@ -12,7 +12,13 @@ class Testimonials extends Component {
             <div>
                 <Helmet>
                     <title>VMPics Photography : Client Testimonials </title>
-                    <meta name="description" content='Testimonials for VMPics Photography'></meta>
+                    <meta name="description" content='Highy recommended. We narrowed down VM pics (Varun) after going through lots 
+                    of available options out there and he also came through as a reference from our close family friend. 
+                    It was not the reference but his variety of work, the natural pictures he had on his profile and the affordability which confirmed our choice. We shot outdoors and his experience with the light, composure and camera work is great.
+                     We couldn not just select the best out of final pictures and ended up getting all. We highly recommend Varun for
+                      shoots and cannot speak highly of his work ethic. Try him! you wont be disappointed…'>
+
+                    </meta>
                 </Helmet>
                 <Menu></Menu>
                 <br />
