@@ -12,7 +12,9 @@ class Home extends Component {
       <div>
         <Helmet>
           <title>Welcome to VMPics Photography. </title>
-          <meta name="description" content='Family photographer in Hills District of NSW. Australia'></meta>
+          <meta name="description" content='Varun was absolute delight to work with, 
+            he knew exactly what we wanted and captured our family moments with his lenses. 
+            I would highly recommend him.'></meta>
         </Helmet>
         <Menu></Menu>
         <div className="container-fluid">

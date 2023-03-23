@@ -12,11 +12,6 @@ class S3Gallery extends Component {
   }
   componentDidMount() {
     const jsonUrl = 'https://vmpics-images.s3.ap-southeast-2.amazonaws.com/' + this.props.albumName + ".json";
-    // const requestOptionsKhyati = {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-    //   body: JSON.stringify({ BucketName: 'vmpics-images', AlbumName: this.props.albumName })
-    // };
     fetch(jsonUrl)
       .then(res => res.json())
       .then(data => this.setState({ photos: this.state.photos.concat(data), isLoading: false }));
