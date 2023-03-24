@@ -93,6 +93,25 @@ class HomeCarousel extends Component {
             height: 3,
             alt: "Pregnant-mom-posing-with-sunset-in-the-background-at-golden-hour"
         },
+        {
+            src: require("../images/Carousel/Pregnant couple showing sonogram during maternity shoot.jpg"),
+            width: 2,
+            height: 3,
+            alt: "Pregnant-couple-showing-sonogram-during-maternity-shoot"
+        },
+        {
+            src: require("../images/Carousel/Dad to be talking to the bump.jpg"),
+            width: 2,
+            height: 3,
+            alt: "Dad-to-be-talking-to-the-bump"
+        },
+        {
+            src: require("../images/Carousel/Parents to be during golden hour at rouse hill regional park.jpg"),
+            width: 3,
+            height: 2,
+            alt: "Parents-to-be-during-golden-hour-at-rouse-hill-regional-park"
+        },
+
     ];
 
     render() {
