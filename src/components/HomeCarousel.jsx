@@ -85,7 +85,7 @@ class HomeCarousel extends Component {
             src: require("../images/Carousel/Pregant mom to be in a beatiful dress.jpg"),
             width: 3,
             height: 2,
-            alt: "Pregant-mom-to-be-in-a-beatiful-dress"
+            alt: "Pregnant-mom-to-be-in-a-beatiful-dress"
         },
         {
             src: require("../images/Carousel/Pregnant mom posing with sunset in the background at golden hour.jpg"),
