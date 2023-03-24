@@ -4,36 +4,40 @@ import Gallery from 'react-photo-gallery';
 class HomeCarousel extends Component {
     photos = [
         {
-            src: require("../images/Carousel/Carousel1.jpg"),
+            src: require("../images/Carousel/Dad to be talking to mom and twin babies.jpg"),
             width: 3,
             height: 2,
-            alt: "To-be-dad-and-mom-sunet-photo-on-trunk"
+            alt: "Dad-to-be-talking-to-mom-and-twin-babies"
         },
         {
-            src: require("../images/Carousel/Carousel2.jpg"),
+            src: require("../images/Carousel/pregnant mom waiting for the baby.jpg"),
+            width: 2,
+            height: 3,
+            alt: "pregnant-mom-waiting-for-the-baby"
+        },
+        {
+            src: require("../images/Carousel/Family shoot on a cloudy day playing with kid.jpg"),
             width: 3,
             height: 2,
-            alt: "close-up-baby-of-newborn-baby"
+            alt: "Family-shoot-on-a-cloudy-day-playing-with-kid"
         },
         {
-            src: require("../images/Carousel/Carousel3.jpg"),
-            width: 3,
-            height: 2
+            src: require("../images/Carousel/Pregnant parents posing for a photo in rouse hill regional park.jpg"),
+            width: 2,
+            height: 3,
+            alt: "Pregnant-parents-posing-for-a-photo-in-rouse-hill-regional-park"
         },
         {
-            src: require("../images/Carousel/Carousel4.jpg"),
-            width: 3,
-            height: 2
+            src: require("../images/Carousel/Dad to be feeling the kicks of twin babies in mom bump.jpg"),
+            width: 2,
+            height: 3,
+            alt: "Dad-to-be-feeling-the-kicks-of-twin-babies-in-mom-bump"
         },
         {
-            src: require("../images/Carousel/Carousel5.jpg"),
-            width: 3,
-            height: 2
-        },
-        {
-            src: require("../images/Carousel/Carousel6.jpg"),
-            width: 3,
-            height: 2
+            src: require("../images/Carousel/Dad to be kissing mom's bump at golden hour.jpg"),
+            width: 2,
+            height: 3,
+            alt: "Dad-to-be-kissing-mom's-bump-at-golden-hour"
         },
         {
             src: require("../images/Carousel/To Be Parents looking at baby bump.jpg"),
@@ -48,6 +52,12 @@ class HomeCarousel extends Component {
             alt: "To-be-mom-with-baby-bump-in-a-park"
         },
         {
+            src: require("../images/Carousel/girl dancing at a family shoot.jpg"),
+            width: 2,
+            height: 3,
+            alt: "girl-dancing-at-a-family-shoot"
+        },
+        {
             src: require("../images/Carousel/To be parents sitting with arms around.jpg"),
             width: 3,
             height: 2,
@@ -60,20 +70,29 @@ class HomeCarousel extends Component {
             alt: "Big-sister-talking-to-mom-baby-bump"
         },
         {
-            src: require("../images/Carousel/Carousel11.jpg"),
+            src: require("../images/Carousel/Parents to be walking in rouse hill regional park.jpg"),
             width: 3,
-            height: 2
+            height: 2,
+            alt: "Parents-to-be-walking-in-rouse-hill-regional-park"
         },
         {
-            src: require("../images/Carousel/Carousel12.jpg"),
-            width: 3,
-            height: 2
+            src: require("../images/Carousel/Dad making his daughter fly during family shoot.jpg"),
+            width: 2,
+            height: 3,
+            alt: "Dad-making-his-daughter-fly-during-family-shoot"
         },
         {
-            src: require("../images/Carousel/Carousel13.jpg"),
+            src: require("../images/Carousel/Pregant mom to be in a beatiful dress.jpg"),
             width: 3,
-            height: 2
-        }
+            height: 2,
+            alt: "Pregant-mom-to-be-in-a-beatiful-dress"
+        },
+        {
+            src: require("../images/Carousel/Pregnant mom posing with sunset in the background at golden hour.jpg"),
+            width: 2,
+            height: 3,
+            alt: "Pregnant-mom-posing-with-sunset-in-the-background-at-golden-hour"
+        },
     ];
 
     render() {
