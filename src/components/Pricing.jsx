@@ -65,10 +65,10 @@ class Pricing extends Component {
                                     <Card.Body>
                                         <Card.Title>VMPics Digital</Card.Title>
                                         <Card.Text>
-                                            - Price : $300 <br />
+                                            - Price : $375 <br />
                                             - Session Duration : 60 minutes<br />
                                             - Personalized client gallery to view photos<br />
-                                            - Included digital edited images : 20<br />
+                                            - Included digital edited images : 25<br />
                                             - 10-14 days of turn-around time<br />
                                             - Extra photos for $20 each<br />
                                             <br />
@@ -102,10 +102,10 @@ class Pricing extends Component {
                                     <Card.Body>
                                         <Card.Title>VMPics Digital+ (Most recommended)</Card.Title>
                                         <Card.Text>
-                                            - Price : $400 <br />
+                                            - Price : $475 <br />
                                             - Session Duration : 60 minutes<br />
                                             - Personalized client gallery to view photos<br />
-                                            - Included digital edited images : 25<br />
+                                            - Included digital edited images : 30<br />
                                             - $50 Shop credit included<br />
                                             - 10-14 days of turn-around time<br />
                                             - Extra photos for $20 each<br />
@@ -138,7 +138,7 @@ class Pricing extends Component {
                                     <Card.Body>
                                         <Card.Title>VMPics Max</Card.Title>
                                         <Card.Text>
-                                            - Price : $600 <br />
+                                            - Price : $700 <br />
                                             - Session Duration : 75 minutes <br />
                                             - Personalized client gallery to view photos<br />
                                             - Included digital edited images : Complete gallery<br />
@@ -175,7 +175,7 @@ class Pricing extends Component {
                                     <Card.Body>
                                         <Card.Title>VMPics Max+(Best value)</Card.Title>
                                         <Card.Text>
-                                            - Price : $650 <br />
+                                            - Price : $850 <br />
                                             - Session Duration : 75 minutes<br />
                                             - $100 Shop credit included<br />
                                             - Personalized client gallery to view photos<br />
