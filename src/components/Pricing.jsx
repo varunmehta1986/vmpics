@@ -69,7 +69,7 @@ class Pricing extends Component {
                                             - Session Duration : 60 minutes<br />
                                             - Personalized client gallery to view photos<br />
                                             - Included digital edited images : 25<br />
-                                            - 10-14 days of turn-around time<br />
+                                            - 14 days of turn-around time<br />
                                             - Extra photos for $20 each<br />
                                             <br />
                                             <br />
@@ -107,7 +107,7 @@ class Pricing extends Component {
                                             - Personalized client gallery to view photos<br />
                                             - Included digital edited images : 30<br />
                                             - $50 Shop credit included<br />
-                                            - 10-14 days of turn-around time<br />
+                                            - 14 days of turn-around time<br />
                                             - Extra photos for $20 each<br />
                                             <br />
                                             <br />
@@ -142,7 +142,7 @@ class Pricing extends Component {
                                             - Session Duration : 75 minutes <br />
                                             - Personalized client gallery to view photos<br />
                                             - Included digital edited images : Complete gallery<br />
-                                            - 10-14 days of turn-around time<br />
+                                            - 14 days of turn-around time<br />
                                             <br />
                                             <br />
                                             <br />
@@ -180,7 +180,7 @@ class Pricing extends Component {
                                             - $100 Shop credit included<br />
                                             - Personalized client gallery to view photos<br />
                                             - Included digital edited images : Complete gallery<br />
-                                            - 10-14 days of turn-around time for the digitals<br />
+                                            - 14 days of turn-around time for the digitals<br />
                                             <br />
                                             <br />
                                             <br />
